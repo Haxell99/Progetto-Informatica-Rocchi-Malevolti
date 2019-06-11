@@ -83,16 +83,28 @@
 		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Ability.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Boss.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
 		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Enemy Abilities.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
 		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Enemy.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Event.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
 		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/GameCharacter.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/GenericRelic.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
 		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Hero.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Relic.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
 		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ShadowMage.cpp">
@@ -104,7 +116,16 @@
 		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Skill.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/SpecificRelic.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
 		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Spell.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Team.cpp">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Team.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
 		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/main.cpp">

@@ -149,6 +149,33 @@ ShadowMage.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/ShadowMage.cpp.s
 .PHONY : ShadowMage.cpp.s
 
+Team.obj: Team.cpp.obj
+
+.PHONY : Team.obj
+
+# target to build an object file
+Team.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Team.cpp.obj
+.PHONY : Team.cpp.obj
+
+Team.i: Team.cpp.i
+
+.PHONY : Team.i
+
+# target to preprocess a source file
+Team.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Team.cpp.i
+.PHONY : Team.cpp.i
+
+Team.s: Team.cpp.s
+
+.PHONY : Team.s
+
+# target to generate assembly for a file
+Team.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Team.cpp.s
+.PHONY : Team.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -188,6 +215,9 @@ help:
 	@echo ... ShadowMage.obj
 	@echo ... ShadowMage.i
 	@echo ... ShadowMage.s
+	@echo ... Team.obj
+	@echo ... Team.i
+	@echo ... Team.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
