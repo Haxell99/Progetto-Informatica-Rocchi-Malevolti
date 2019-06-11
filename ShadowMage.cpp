@@ -3,3 +3,9 @@
 //
 
 #include "ShadowMage.h"
+
+void ShadowMage::Meditate::obtainmanaEachTurn() {
+
+    //Example of C++ nested class cpp file
+
+}

@@ -3,4 +3,4 @@ project(Dragon_s_Lair)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Dragon_s_Lair main.cpp GameCharacter.h Enemy.h Hero.h Ability.h Skill.h Spell.h "Enemy Abilities.h")
+add_executable(Dragon_s_Lair main.cpp GameCharacter.h Enemy.h Hero.h Ability.h Skill.h Spell.h "Enemy Abilities.h" ShadowMage.cpp ShadowMage.h)

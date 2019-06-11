@@ -12,6 +12,7 @@ public:
     Ability();
 
     virtual ~Ability()=0;
+    virtual void Do()=0;
 
     bool isEnabled() const {
         return enabled;
@@ -44,8 +45,8 @@ public:
     void setUltimate(bool ultimate) {
         Ability::ultimate = ultimate;
     }
-
-private:
+//changed from private to protected 11/06
+protected:
     bool enabled;
     std::string description;
     std::string name;
