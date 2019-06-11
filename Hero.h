@@ -5,8 +5,6 @@
 #ifndef DRAGON_S_LAIR_HERO_H
 #define DRAGON_S_LAIR_HERO_H
 
-#endif //DRAGON_S_LAIR_HERO_H
-
 #include "GameCharacter.h"
 
 class Hero : public GameCharacter{
@@ -73,3 +71,6 @@ private:
     int mana;
     bool alive;
 };
+
+#endif //DRAGON_S_LAIR_HERO_H
+

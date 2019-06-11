@@ -5,8 +5,6 @@
 #ifndef DRAGON_S_LAIR_GAMECHARACTER_H
 #define DRAGON_S_LAIR_GAMECHARACTER_H
 
-#endif //DRAGON_S_LAIR_GAMECHARACTER_H
-
 class GameCharacter {
 public:
     GameCharacter();
@@ -156,3 +154,4 @@ private:
     int stunned;
     bool protect;
 };
+#endif //DRAGON_S_LAIR_GAMECHARACTER_H

@@ -5,15 +5,13 @@
 #ifndef DRAGON_S_LAIR_ENEMY_H
 #define DRAGON_S_LAIR_ENEMY_H
 
-#endif //DRAGON_S_LAIR_ENEMY_H
-
 #include "GameCharacter.h"
 
 class Enemy : public GameCharacter{
 public:
     Enemy();
 
-    virtual ~Enemy()=0;
+    ~Enemy() override;
 
     int getGivenGold() const {
         return givenGold;
@@ -53,3 +51,7 @@ private:
     bool taunted;
     std::string description;
 };
+
+#endif //DRAGON_S_LAIR_ENEMY_H
+
+
