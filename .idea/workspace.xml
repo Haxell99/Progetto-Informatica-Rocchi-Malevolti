@@ -11,16 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="430e9b35-68f4-4968-acd7-5b479c1d23af" name="Default Changelist" comment="Merge branch 'master' of https://github.com/Haxell99/Progetto-Informatica-Rocchi-Malevolti&#10;&#10;# Conflicts:&#10;#&#9;ShadowMage.h">
-      <change afterPath="$PROJECT_DIR$/Boss.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Event.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GenericRelic.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relic.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpecificRelic.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Team.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Team.h" afterDir="false" />
+    <list default="true" id="430e9b35-68f4-4968-acd7-5b479c1d23af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Dragon_s_Lair.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Dragon_s_Lair.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Dragon_s_Lair.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Dragon_s_Lair.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Dragon_s_Lair.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Dragon_s_Lair.dir/cmake_clean.cmake" afterDir="false" />
@@ -178,7 +170,7 @@
       <workItem from="1560251613346" duration="89000" />
       <workItem from="1560252601933" duration="91000" />
       <workItem from="1560268803785" duration="807000" />
-      <workItem from="1560269775987" duration="2993000" />
+      <workItem from="1560269775987" duration="3181000" />
     </task>
     <task id="LOCAL-00001" summary="added some classes:&#10;Enemy&#10;GameCharacter">
       <created>1560243019072</created>
@@ -208,15 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560245862595</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added:&#10;Boss.h&#10;Event.h&#10;GenericRelic.h&#10;Relic.h&#10;SpecificRelic.h&#10;Team.h (i started implementing it in the cpp but we need to talk about &#10;the functions LevelUp but most importantly HandleCDeath)">
+      <created>1560272985776</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560272985776</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9037000" />
+    <option name="totallyTimeSpent" value="9225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14145234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -287,7 +285,8 @@
     <MESSAGE value="added some classes:&#10;Enemy&#10;GameCharacter" />
     <MESSAGE value="added Hero" />
     <MESSAGE value="Merge branch 'master' of https://github.com/Haxell99/Progetto-Informatica-Rocchi-Malevolti&#10;&#10;# Conflicts:&#10;#&#9;ShadowMage.h" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Haxell99/Progetto-Informatica-Rocchi-Malevolti&#10;&#10;# Conflicts:&#10;#&#9;ShadowMage.h" />
+    <MESSAGE value="Added:&#10;Boss.h&#10;Event.h&#10;GenericRelic.h&#10;Relic.h&#10;SpecificRelic.h&#10;Team.h (i started implementing it in the cpp but we need to talk about &#10;the functions LevelUp but most importantly HandleCDeath)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added:&#10;Boss.h&#10;Event.h&#10;GenericRelic.h&#10;Relic.h&#10;SpecificRelic.h&#10;Team.h (i started implementing it in the cpp but we need to talk about &#10;the functions LevelUp but most importantly HandleCDeath)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Spell.h">
