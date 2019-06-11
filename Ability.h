@@ -46,11 +46,10 @@ public:
         Ability::ultimate = ultimate;
     }
 //changed from private to protected 11/06
-protected:
+private:
     bool enabled;
     std::string description;
     std::string name;
-    bool ultimate;
 };
 
 #endif //DRAGON_S_LAIR_ABILITY_H
