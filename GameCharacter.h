@@ -11,7 +11,7 @@ class GameCharacter {
 public:
     GameCharacter();
 
-    ~GameCharacter();
+    virtual ~GameCharacter()=0;
 
     virtual void Attack()=0;
 
