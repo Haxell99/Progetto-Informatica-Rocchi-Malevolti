@@ -27,7 +27,6 @@ private:
     private:
         int manaEachTurn;
         std::string description {"Grants mana scaling with level"};
-        bool ultimate {false};
     };
 
     class DarkSphere : public Spell{
@@ -37,7 +36,6 @@ private:
     private:
         std::string description {"Damage orb that also increases darkness"};
         int darknessIncreaseDS;
-        bool ultimate {false};
     };
 
     class DemoniPact : public Spell{
@@ -47,7 +45,6 @@ private:
     private:
         std::string description {"Drains all current mana to multiply the dakness of the hero"};
         int darknessMultiplier {2};
-        bool ultimate {false};
     };
 
     class DarkEmbrace : public Spell{
@@ -59,7 +56,6 @@ private:
         std::string description {"After the activation grants mana and darkness each turn"};
         int darknessIncreaseDE;
         int manaIncreaseDE;
-        bool ultimate {false};
     };
 
     class Annihilation : public Spell{
@@ -68,7 +64,6 @@ private:
         void obtaindamagePerOrb();
 
     private:
-        bool ultimate {true};
         int damagePerOrb;
         std::string description {"Consumes all accumulated darkness to deal damage depending on how much darkness was used"};
     };
@@ -80,7 +75,6 @@ private:
 
     private:
         int orbToStun;
-        bool ultimate {true};
         std::string description {"Consumes all accumulated darkness to stun depending on how much darkness was used"};
     };
 
