@@ -11,8 +11,8 @@
 
 class ShadowMage : public Hero {
 public:
-    void Attack=0;
-    void Defend override;
+    void Attack()=0;
+    void Defend() override;
 
 private:
     int darkness;
@@ -21,31 +21,69 @@ private:
 
     class Meditate : public Skill{
     public:
-        void Do override;
-        int obtainmanaEachTurn;
+        void Do() override;
+        void obtainmanaEachTurn();
 
     private:
         int manaEachTurn;
         std::string description {"Grants mana scaling with level"};
+        bool ultimate {false};
     };
 
     class DarkSphere : public Spell{
     public:
-        void Do override;
-        int obtaindarknessIncreaseDS;
+        void Do() override;
+        void obtaindarknessIncreaseDS();
     private:
-        std::string description {Damage orb that also increases darkness};
+        std::string description {"Damage orb that also increases darkness"};
         int darknessIncreaseDS;
+        bool ultimate {false};
     };
 
-    class Demonic Pact : public Spell{
+    class DemoniPact : public Spell{
     public:
-        void Do override;
-        int obtaindarknessMultiplier;
+        void Do() override;
+        void obtaindarknessMultiplier();
     private:
-        std::string description {Drains all current mana to multiply the dakness of the hero}
+        std::string description {"Drains all current mana to multiply the dakness of the hero"};
         int darknessMultiplier {2};
+        bool ultimate {false};
     };
+
+    class DarkEmbrace : public Spell{
+    public:
+        void Do() override;
+        void obtaindarknessIncreaseDE();
+        void obtainmanaIncreaeDE();
+    private:
+        std::string description {"After the activation grants mana and darkness each turn"};
+        int darknessIncreaseDE;
+        int manaIncreaseDE;
+        bool ultimate {false};
+    };
+
+    class Annihilation : public Spell{
+    public:
+        void Do() override;
+        void obtaindamagePerOrb();
+
+    private:
+        bool ultimate {true};
+        int damagePerOrb;
+        std::string description {"Consumes all accumulated darkness to deal damage depending on how much darkness was used"};
+    };
+
+    class NeverEndingNightmare : public Spell{
+    public:
+        void obtainorbToStun();
+        void Do()override;
+
+    private:
+        int orbToStun;
+        bool ultimate {true};
+        std::string description {"Consumes all accumulated darkness to stun depending on how much darkness was used"};
+    };
+
 
 };
 

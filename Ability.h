@@ -12,6 +12,7 @@ public:
     Ability();
 
     virtual ~Ability()=0;
+    virtual void Do()=0;
 
     bool isEnabled() const {
         return enabled;
@@ -44,12 +45,11 @@ public:
     void setUltimate(bool ultimate) {
         Ability::ultimate = ultimate;
     }
-
+//changed from private to protected 11/06
 private:
     bool enabled;
     std::string description;
     std::string name;
-    bool ultimate;
 };
 
 #endif //DRAGON_S_LAIR_ABILITY_H
