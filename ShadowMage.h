@@ -26,7 +26,7 @@ private:
 
     private:
         int manaEachTurn;
-        std::string description {Grants mana scaling with level};
+        std::string description {"Grants mana scaling with level"};
     };
 
     class DarkSphere : public Spell{
