@@ -8,7 +8,6 @@
 #include "Ability.h"
 
 class Skill : public Ability{
-
 };
 
 #endif //DRAGON_S_LAIR_SKILL_H

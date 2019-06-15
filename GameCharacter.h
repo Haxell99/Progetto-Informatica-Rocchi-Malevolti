@@ -137,7 +137,7 @@ public:
         GameCharacter::protect = protect;
     }
 
-private:
+protected:
     int healt;
     int armor;
     int strenght;

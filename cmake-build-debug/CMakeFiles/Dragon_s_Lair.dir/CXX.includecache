@@ -6,7 +6,39 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/main.cpp
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Ability.h
 iostream
 -
+
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/GameCharacter.h
+iostream
+-
+
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Hero.h
+GameCharacter.h
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/GameCharacter.h
+
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ShadowMage.cpp
+ShadowMage.h
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ShadowMage.h
+GameCharacter.h
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/GameCharacter.h
+
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ShadowMage.h
+Hero.h
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Hero.h
+Spell.h
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Spell.h
+GameCharacter.h
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/GameCharacter.h
+Skill.h
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Skill.h
+
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Skill.h
+Ability.h
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Ability.h
+
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Spell.h
+Ability.h
+C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Ability.h
 

@@ -38,13 +38,8 @@ public:
         Ability::name = name;
     }
 
-    bool isUltimate() const {
-        return ultimate;
-    }
 
-    void setUltimate(bool ultimate) {
-        Ability::ultimate = ultimate;
-    }
+
 //changed from private to protected 11/06
 private:
     bool enabled;
