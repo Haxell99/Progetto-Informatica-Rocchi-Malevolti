@@ -137,8 +137,18 @@ public:
         GameCharacter::protect = protect;
     }
 
+    int getMaxHealth() const {
+        return maxHealth;
+    }
+
+    void setMaxHealth(int maxHealth) {
+        GameCharacter::maxHealth = maxHealth;
+    }
+
+
 protected:
     int healt;
+    int maxHealth;
     int armor;
     int strenght;
     int level;

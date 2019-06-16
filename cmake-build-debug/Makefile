@@ -122,6 +122,33 @@ Dragon_s_Lair/fast:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/build
 .PHONY : Dragon_s_Lair/fast
 
+Berserker.obj: Berserker.cpp.obj
+
+.PHONY : Berserker.obj
+
+# target to build an object file
+Berserker.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Berserker.cpp.obj
+.PHONY : Berserker.cpp.obj
+
+Berserker.i: Berserker.cpp.i
+
+.PHONY : Berserker.i
+
+# target to preprocess a source file
+Berserker.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Berserker.cpp.i
+.PHONY : Berserker.cpp.i
+
+Berserker.s: Berserker.cpp.s
+
+.PHONY : Berserker.s
+
+# target to generate assembly for a file
+Berserker.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Berserker.cpp.s
+.PHONY : Berserker.cpp.s
+
 ShadowMage.obj: ShadowMage.cpp.obj
 
 .PHONY : ShadowMage.obj
@@ -212,6 +239,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Dragon_s_Lair
 	@echo ... edit_cache
+	@echo ... Berserker.obj
+	@echo ... Berserker.i
+	@echo ... Berserker.s
 	@echo ... ShadowMage.obj
 	@echo ... ShadowMage.i
 	@echo ... ShadowMage.s

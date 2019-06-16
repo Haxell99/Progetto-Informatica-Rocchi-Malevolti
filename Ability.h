@@ -41,10 +41,11 @@ public:
 
 
 //changed from private to protected 11/06
-private:
+protected:
     bool enabled;
     std::string description;
     std::string name;
+    bool cast {false};
 };
 
 #endif //DRAGON_S_LAIR_ABILITY_H

@@ -9,9 +9,12 @@
 #include "Spell.h"
 #include "GameCharacter.h"
 #include "Skill.h"
+#include "Ability.h"
 
 class ShadowMage : public Hero {
 public:
+
+    ShadowMage();
 
     int getDarkness() const;
 
@@ -30,7 +33,7 @@ public:
     class Meditate : public Skill{
     public:
         void Do() override;
-        void test(ShadowMage& e);
+        void obtainManaGain();
 
         int getManaGain() const;
 
@@ -38,8 +41,9 @@ public:
 
 
     private:
-        int manaGain;
+        int manaGain {0};
         std::string description {"Grants mana scaling with level"};
+        ShadowMage &e;
     };
 
     class DarkSphere : public Spell{
@@ -51,7 +55,8 @@ public:
         void setDarknessIncreaseDS(int darknessIncreaseDS);
     private:
         std::string description {"Damage orb that also increases darkness"};
-        int darknessIncreaseDS;
+        int darknessIncreaseDS {0};
+        ShadowMage &e;
     };
 
     class DemoniPact : public Spell{
@@ -65,7 +70,8 @@ public:
 
     private:
         std::string description {"Drains all current mana to multiply the dakness of the hero"};
-        int darknessMultiplier {2};
+        int darknessMultiplier {0};
+        ShadowMage &e;
     };
 
     class DarkEmbrace : public Spell{
@@ -86,6 +92,7 @@ public:
         std::string description {"After the activation grants mana and darkness each turn"};
         int darknessIncreaseDE;
         int manaIncreaseDE;
+        ShadowMage &e;
     };
 
     class Annihilation : public Spell{
@@ -100,6 +107,7 @@ public:
     private:
         int damagePerOrb;
         std::string description {"Consumes all accumulated darkness to deal damage depending on how much darkness was used"};
+        ShadowMage &e;
     };
 
     class NeverEndingNightmare : public Spell{
@@ -114,15 +122,16 @@ public:
     private:
         int orbToStun;
         std::string description {"Consumes all accumulated darkness to stun depending on how much darkness was used"};
-        friend class ShadowMage;
+        ShadowMage &e;
     };
 
 
 private:
+    static int damageTotal;
+    static int damageTurnShadow;
     int darkness;
     bool channelingPower;
     int startingDarkness;
-    friend class Meditate;
 
 
 

@@ -83,6 +83,12 @@
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Ability.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Berserker.cpp">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Berserker.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Boss.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
