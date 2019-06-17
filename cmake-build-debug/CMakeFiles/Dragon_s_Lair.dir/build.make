@@ -108,12 +108,68 @@ CMakeFiles/Dragon_s_Lair.dir/Berserker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dragon_s_Lair.dir/Berserker.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\Berserker.cpp -o CMakeFiles\Dragon_s_Lair.dir\Berserker.cpp.s
 
+CMakeFiles/Dragon_s_Lair.dir/Rogue.cpp.obj: CMakeFiles/Dragon_s_Lair.dir/flags.make
+CMakeFiles/Dragon_s_Lair.dir/Rogue.cpp.obj: ../Rogue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Dragon_s_Lair.dir/Rogue.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Dragon_s_Lair.dir\Rogue.cpp.obj -c C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\Rogue.cpp
+
+CMakeFiles/Dragon_s_Lair.dir/Rogue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dragon_s_Lair.dir/Rogue.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\Rogue.cpp > CMakeFiles\Dragon_s_Lair.dir\Rogue.cpp.i
+
+CMakeFiles/Dragon_s_Lair.dir/Rogue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dragon_s_Lair.dir/Rogue.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\Rogue.cpp -o CMakeFiles\Dragon_s_Lair.dir\Rogue.cpp.s
+
+CMakeFiles/Dragon_s_Lair.dir/Cleric.cpp.obj: CMakeFiles/Dragon_s_Lair.dir/flags.make
+CMakeFiles/Dragon_s_Lair.dir/Cleric.cpp.obj: ../Cleric.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Dragon_s_Lair.dir/Cleric.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Dragon_s_Lair.dir\Cleric.cpp.obj -c C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\Cleric.cpp
+
+CMakeFiles/Dragon_s_Lair.dir/Cleric.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dragon_s_Lair.dir/Cleric.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\Cleric.cpp > CMakeFiles\Dragon_s_Lair.dir\Cleric.cpp.i
+
+CMakeFiles/Dragon_s_Lair.dir/Cleric.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dragon_s_Lair.dir/Cleric.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\Cleric.cpp -o CMakeFiles\Dragon_s_Lair.dir\Cleric.cpp.s
+
+CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.obj: CMakeFiles/Dragon_s_Lair.dir/flags.make
+CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.obj: ../Warrior.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Dragon_s_Lair.dir\Warrior.cpp.obj -c C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\Warrior.cpp
+
+CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\Warrior.cpp > CMakeFiles\Dragon_s_Lair.dir\Warrior.cpp.i
+
+CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\Warrior.cpp -o CMakeFiles\Dragon_s_Lair.dir\Warrior.cpp.s
+
+CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.obj: CMakeFiles/Dragon_s_Lair.dir/flags.make
+CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.obj: ../HolySimbol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Dragon_s_Lair.dir\HolySimbol.cpp.obj -c C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\HolySimbol.cpp
+
+CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\HolySimbol.cpp > CMakeFiles\Dragon_s_Lair.dir\HolySimbol.cpp.i
+
+CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\HolySimbol.cpp -o CMakeFiles\Dragon_s_Lair.dir\HolySimbol.cpp.s
+
 # Object files for target Dragon_s_Lair
 Dragon_s_Lair_OBJECTS = \
 "CMakeFiles/Dragon_s_Lair.dir/main.cpp.obj" \
 "CMakeFiles/Dragon_s_Lair.dir/ShadowMage.cpp.obj" \
 "CMakeFiles/Dragon_s_Lair.dir/Team.cpp.obj" \
-"CMakeFiles/Dragon_s_Lair.dir/Berserker.cpp.obj"
+"CMakeFiles/Dragon_s_Lair.dir/Berserker.cpp.obj" \
+"CMakeFiles/Dragon_s_Lair.dir/Rogue.cpp.obj" \
+"CMakeFiles/Dragon_s_Lair.dir/Cleric.cpp.obj" \
+"CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.obj" \
+"CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.obj"
 
 # External object files for target Dragon_s_Lair
 Dragon_s_Lair_EXTERNAL_OBJECTS =
@@ -122,11 +178,15 @@ Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/main.cpp.obj
 Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/ShadowMage.cpp.obj
 Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/Team.cpp.obj
 Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/Berserker.cpp.obj
+Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/Rogue.cpp.obj
+Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/Cleric.cpp.obj
+Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.obj
+Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.obj
 Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/build.make
 Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/linklibs.rsp
 Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/objects1.rsp
 Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Dragon_s_Lair.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Dragon_s_Lair.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Dragon_s_Lair.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

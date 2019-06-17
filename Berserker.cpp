@@ -17,10 +17,11 @@ void Berserker::Inflame::ObtainstrenghtIncrease() {
 }
 
 void Berserker::Inflame::Do() {
-    if(strenghtIncrease==0)
+    if(strenghtIncrease==0 || !cast)
         ObtainstrenghtIncrease();
 
     f.strenght=f.strenght+strenghtIncrease;
+    cast=true;
 }
 
 void Berserker::GreviousWound::ObtainbleedGW() {
@@ -30,21 +31,23 @@ void Berserker::GreviousWound::ObtainbleedGW() {
 }
 
 void Berserker::GreviousWound::Do() {
-    if(bleedGW==0)
+    if(bleedGW==0 || !cast)
         ObtainbleedGW();
-    damageTurnBerserker=2*(3+f.strenght);
+    f.damageTurnBerserker=2*(3+f.strenght);
     //TODO: come visto prima, manca da assegnare bleedGW a un nemico
-
+    cast=true;
 }
 
 //Enters a rage state, cannot defend, gains access to Melter and Harvest soul, abilities that cost health, and has an upgraded rampage, that starts costing health too.\\n\"\n"
 //              Gains lifesteal
 void Berserker::BloodThirst::Do() {
-    Obtainlifesteal();
+    if(!cast)
+        Obtainlifesteal();
     if(!f.bloodthirst)
-        f.bloodthirst;
+        f.bloodthirst=true;
     else
         f.bloodthirst= false;
+    cast=true;
 }
 
 void Berserker::BloodThirst::Obtainlifesteal() {
@@ -64,6 +67,9 @@ void Berserker::BloodThirst::Obtainlifesteal() {
 void Berserker::Melter::Do() {
     //TODO: pt. 3, nemici non implementati, manca un riferimento al nemico attuale
     //Fa il danno minore fra una percentuale della vita del bersaglio e tutta la sua armatura.
+    // || !cast
+
+    cast=true;
 
 }
 
@@ -75,14 +81,15 @@ void Berserker::Rampage::Do() {
     }
 
     if(!f.bloodthirst) {
-        damageTurnBerserker = 8 + f.currentRampage;
+        f.damageTurnBerserker = 8 + f.currentRampage;
         f.currentRampage = f.currentRampage + f.rampageIncrease;
     }
     else{
-        damageTurnBerserker= 10 + f.currentRampage;
+        f.damageTurnBerserker= 10 + f.currentRampage;
         f.currentRampage=f.currentRampage+f.strenght+f.rampageIncrease;
-        f.Lifesteal(damageTurnBerserker);
+        f.Lifesteal(f.damageTurnBerserker);
     }
+    cast=true;
 
 }
 
@@ -96,13 +103,21 @@ void Berserker::Lifesteal(int dmg) {
         healt=healt+d;
 }
 
+void Berserker::Attack() {
+    damageTurnBerserker=10+strenght;
+    if(bloodthirst)
+        Lifesteal(damageTurnBerserker);
+
+}
+
 void Berserker::HarvestSoul::Do() {
     if(f.bloodthirst){
-        damageTurnBerserker=4*(8+f.strenght);
-        f.Lifesteal(damageTurnBerserker);
+        f.damageTurnBerserker=4*(8+f.strenght);
+        f.Lifesteal(f.damageTurnBerserker);
         //TODO: if damage kills the target gain permanent damage on rampage
         //if(currentEnemy.health<damageTurnBerserker)
         //rampageIncrease++
+        cast=true;
     }
 
 }

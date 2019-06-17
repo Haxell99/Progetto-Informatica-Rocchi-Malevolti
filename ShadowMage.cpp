@@ -9,11 +9,12 @@
 void ShadowMage::Meditate::Do(){
     //TODO: inserito nella prima classe spell realizzata, vale per tutte le altre. if(managain==0) deve diventare un OR tra
     //TODO: mana gain e isSpellCast
-    if(manaGain==0)
+    if(manaGain==0  || !cast)
         obtainManaGain();
     int m=e.getMana();
     m+= getManaGain();
     e.setMana(m);
+    cast=true;
 
     //Example of C++ nested class cpp file
 }
@@ -30,10 +31,11 @@ void ShadowMage::DarkSphere::obtaindarknessIncreaseDS() {
 
 
 void ShadowMage::DarkSphere::Do() {
-    if(darknessIncreaseDS==0)
+    if(darknessIncreaseDS==0  || !cast)
         obtaindarknessIncreaseDS();
     e.darkness=e.darkness+darknessIncreaseDS;
-    damageTurnShadow=10*e.level;
+    e.damageTurnShadow=10*e.level;
+    cast=true;
 }
 
 void ShadowMage::DemoniPact::obtaindarknessMultiplier() {
@@ -50,10 +52,11 @@ void ShadowMage::DemoniPact::obtaindarknessMultiplier() {
 
 
 void ShadowMage::DemoniPact::Do() {
-    if(darknessMultiplier==0)
+    if(darknessMultiplier==0  || !cast)
         obtaindarknessMultiplier();
     e.darkness=e.darkness*darknessMultiplier;
     e.setMana(0);
+    cast=true;
 }
 
 
@@ -69,12 +72,12 @@ void ShadowMage::DarkEmbrace::obtainmanaIncreaeDE() {
 
 
 void ShadowMage::DarkEmbrace::Do() {
-    if(darknessIncreaseDE==0)
+    if(darknessIncreaseDE==0 || !cast)
         obtaindarknessIncreaseDE();
-    if(manaIncreaseDE==0)
+    if(manaIncreaseDE==0 || !cast)
         obtainmanaIncreaeDE();
     if(!e.channelingPower)
-        e.channelingPower;
+        e.channelingPower=true;
     else{
         int m=e.getMana();
         int d=e.getDarkness();
@@ -83,6 +86,7 @@ void ShadowMage::DarkEmbrace::Do() {
         e.setDarkness(td);
         e.setMana(tm);
     }
+    cast=true;
 }
 
 
@@ -92,11 +96,12 @@ void ShadowMage::Annihilation::obtaindamagePerOrb() {
 }
 
 void ShadowMage::Annihilation::Do() {
-    if(damagePerOrb==0)
+    if(damagePerOrb==0 || !cast)
         obtaindamagePerOrb();
-    damageTurnShadow=damagePerOrb*e.darkness;
+    e.damageTurnShadow=damagePerOrb*e.darkness;
     //darkness reduction should be based on damage dealt
     e.darkness=0;
+    cast=true;
 }
 
 void ShadowMage::NeverEndingNightmare::obtainorbToStun() {
@@ -114,13 +119,14 @@ void ShadowMage::NeverEndingNightmare::obtainorbToStun() {
 }
 
 void ShadowMage::NeverEndingNightmare::Do() {
-    if(orbToStun==0)
+    if(orbToStun==0 || !cast)
         obtainorbToStun();
     int r=e.darkness%orbToStun;
 
     //TODO: apply a e.darkness/orbToStun to the enemy (enenmy not implemented yet)
 
     e.darkness=r;
+    cast=true;
 }
 
 

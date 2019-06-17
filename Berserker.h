@@ -16,6 +16,7 @@ class Berserker : public Hero {
 public:
     Berserker();
     ~Berserker()final;
+    void Attack() override;
 
     void Lifesteal(int dmg);
 
@@ -33,7 +34,6 @@ public:
     class GreviousWound : public Skill{
     public:
         void Do() override;
-        //TODO: non legge la funzione superiore, al contrario di Do. FIX
         void ObtainbleedGW();
     private:
         int bleedGW;
@@ -84,7 +84,7 @@ private:
     int startingRampage;
     int currentRampage;
     bool bloodthirst {false};
-    static int damageTurnBerserker;
+    int damageTurnBerserker;
     int lifestealPercentage{5};
 
 

@@ -13,7 +13,7 @@ public:
 
     ~Relic();
 
-    virtual void Apply();
+    virtual void Apply()=0;
 
     const std::string &getName() const {
         return name;

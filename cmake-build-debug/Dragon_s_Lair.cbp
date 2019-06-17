@@ -92,6 +92,12 @@
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Boss.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Cleric.cpp">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Cleric.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Enemy Abilities.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
@@ -110,7 +116,19 @@
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Hero.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/HolySimbol.cpp">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/HolySimbol.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Relic.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Rogue.cpp">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Rogue.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ShadowMage.cpp">
@@ -132,6 +150,12 @@
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Team.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Warrior.cpp">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Warrior.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/main.cpp">

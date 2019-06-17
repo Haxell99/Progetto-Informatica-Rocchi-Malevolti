@@ -149,6 +149,87 @@ Berserker.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Berserker.cpp.s
 .PHONY : Berserker.cpp.s
 
+Cleric.obj: Cleric.cpp.obj
+
+.PHONY : Cleric.obj
+
+# target to build an object file
+Cleric.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Cleric.cpp.obj
+.PHONY : Cleric.cpp.obj
+
+Cleric.i: Cleric.cpp.i
+
+.PHONY : Cleric.i
+
+# target to preprocess a source file
+Cleric.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Cleric.cpp.i
+.PHONY : Cleric.cpp.i
+
+Cleric.s: Cleric.cpp.s
+
+.PHONY : Cleric.s
+
+# target to generate assembly for a file
+Cleric.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Cleric.cpp.s
+.PHONY : Cleric.cpp.s
+
+HolySimbol.obj: HolySimbol.cpp.obj
+
+.PHONY : HolySimbol.obj
+
+# target to build an object file
+HolySimbol.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.obj
+.PHONY : HolySimbol.cpp.obj
+
+HolySimbol.i: HolySimbol.cpp.i
+
+.PHONY : HolySimbol.i
+
+# target to preprocess a source file
+HolySimbol.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.i
+.PHONY : HolySimbol.cpp.i
+
+HolySimbol.s: HolySimbol.cpp.s
+
+.PHONY : HolySimbol.s
+
+# target to generate assembly for a file
+HolySimbol.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.s
+.PHONY : HolySimbol.cpp.s
+
+Rogue.obj: Rogue.cpp.obj
+
+.PHONY : Rogue.obj
+
+# target to build an object file
+Rogue.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Rogue.cpp.obj
+.PHONY : Rogue.cpp.obj
+
+Rogue.i: Rogue.cpp.i
+
+.PHONY : Rogue.i
+
+# target to preprocess a source file
+Rogue.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Rogue.cpp.i
+.PHONY : Rogue.cpp.i
+
+Rogue.s: Rogue.cpp.s
+
+.PHONY : Rogue.s
+
+# target to generate assembly for a file
+Rogue.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Rogue.cpp.s
+.PHONY : Rogue.cpp.s
+
 ShadowMage.obj: ShadowMage.cpp.obj
 
 .PHONY : ShadowMage.obj
@@ -203,6 +284,33 @@ Team.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Team.cpp.s
 .PHONY : Team.cpp.s
 
+Warrior.obj: Warrior.cpp.obj
+
+.PHONY : Warrior.obj
+
+# target to build an object file
+Warrior.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.obj
+.PHONY : Warrior.cpp.obj
+
+Warrior.i: Warrior.cpp.i
+
+.PHONY : Warrior.i
+
+# target to preprocess a source file
+Warrior.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.i
+.PHONY : Warrior.cpp.i
+
+Warrior.s: Warrior.cpp.s
+
+.PHONY : Warrior.s
+
+# target to generate assembly for a file
+Warrior.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.s
+.PHONY : Warrior.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -242,12 +350,24 @@ help:
 	@echo ... Berserker.obj
 	@echo ... Berserker.i
 	@echo ... Berserker.s
+	@echo ... Cleric.obj
+	@echo ... Cleric.i
+	@echo ... Cleric.s
+	@echo ... HolySimbol.obj
+	@echo ... HolySimbol.i
+	@echo ... HolySimbol.s
+	@echo ... Rogue.obj
+	@echo ... Rogue.i
+	@echo ... Rogue.s
 	@echo ... ShadowMage.obj
 	@echo ... ShadowMage.i
 	@echo ... ShadowMage.s
 	@echo ... Team.obj
 	@echo ... Team.i
 	@echo ... Team.s
+	@echo ... Warrior.obj
+	@echo ... Warrior.i
+	@echo ... Warrior.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

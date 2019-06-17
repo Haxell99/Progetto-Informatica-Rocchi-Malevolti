@@ -128,7 +128,7 @@ public:
 
 private:
     static int damageTotal;
-    static int damageTurnShadow;
+    int damageTurnShadow;
     int darkness;
     bool channelingPower;
     int startingDarkness;
