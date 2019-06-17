@@ -13,6 +13,8 @@ public:
 
     ~Hero() override;
 
+    //TODO: mettere spell cast su tutte le spell degli eroi
+
     virtual void Defend()=0;
 
     const std::string &getHeroType() const {

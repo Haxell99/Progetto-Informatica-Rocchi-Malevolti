@@ -257,6 +257,33 @@ ShadowMage.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/ShadowMage.cpp.s
 .PHONY : ShadowMage.cpp.s
 
+SilverGolem.obj: SilverGolem.cpp.obj
+
+.PHONY : SilverGolem.obj
+
+# target to build an object file
+SilverGolem.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/SilverGolem.cpp.obj
+.PHONY : SilverGolem.cpp.obj
+
+SilverGolem.i: SilverGolem.cpp.i
+
+.PHONY : SilverGolem.i
+
+# target to preprocess a source file
+SilverGolem.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/SilverGolem.cpp.i
+.PHONY : SilverGolem.cpp.i
+
+SilverGolem.s: SilverGolem.cpp.s
+
+.PHONY : SilverGolem.s
+
+# target to generate assembly for a file
+SilverGolem.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/SilverGolem.cpp.s
+.PHONY : SilverGolem.cpp.s
+
 Team.obj: Team.cpp.obj
 
 .PHONY : Team.obj
@@ -283,6 +310,33 @@ Team.s: Team.cpp.s
 Team.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Team.cpp.s
 .PHONY : Team.cpp.s
+
+Treant.obj: Treant.cpp.obj
+
+.PHONY : Treant.obj
+
+# target to build an object file
+Treant.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Treant.cpp.obj
+.PHONY : Treant.cpp.obj
+
+Treant.i: Treant.cpp.i
+
+.PHONY : Treant.i
+
+# target to preprocess a source file
+Treant.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Treant.cpp.i
+.PHONY : Treant.cpp.i
+
+Treant.s: Treant.cpp.s
+
+.PHONY : Treant.s
+
+# target to generate assembly for a file
+Treant.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Treant.cpp.s
+.PHONY : Treant.cpp.s
 
 Warrior.obj: Warrior.cpp.obj
 
@@ -362,9 +416,15 @@ help:
 	@echo ... ShadowMage.obj
 	@echo ... ShadowMage.i
 	@echo ... ShadowMage.s
+	@echo ... SilverGolem.obj
+	@echo ... SilverGolem.i
+	@echo ... SilverGolem.s
 	@echo ... Team.obj
 	@echo ... Team.i
 	@echo ... Team.s
+	@echo ... Treant.obj
+	@echo ... Treant.i
+	@echo ... Treant.s
 	@echo ... Warrior.obj
 	@echo ... Warrior.i
 	@echo ... Warrior.s

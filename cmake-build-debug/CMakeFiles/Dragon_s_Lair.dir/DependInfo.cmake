@@ -9,7 +9,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/HolySimbol.cpp" "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.obj"
   "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Rogue.cpp" "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/CMakeFiles/Dragon_s_Lair.dir/Rogue.cpp.obj"
   "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ShadowMage.cpp" "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/CMakeFiles/Dragon_s_Lair.dir/ShadowMage.cpp.obj"
+  "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/SilverGolem.cpp" "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/CMakeFiles/Dragon_s_Lair.dir/SilverGolem.cpp.obj"
   "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Team.cpp" "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/CMakeFiles/Dragon_s_Lair.dir/Team.cpp.obj"
+  "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Treant.cpp" "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/CMakeFiles/Dragon_s_Lair.dir/Treant.cpp.obj"
   "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Warrior.cpp" "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.obj"
   "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/main.cpp" "C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/CMakeFiles/Dragon_s_Lair.dir/main.cpp.obj"
   )
