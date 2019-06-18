@@ -65,8 +65,17 @@ public:
         Hero::alive = alive;
     }
 
+    int getMaxMana() const {
+        return maxMana;
+    }
+
+    void setMaxMana(int maxMana) {
+        Hero::maxMana = maxMana;
+    }
+
 private:
     std::string heroType;
+    int maxMana;
     int manaIncrease;
     int healtIncrese;
     int strenghtIncrease;
