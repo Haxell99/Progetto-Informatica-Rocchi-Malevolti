@@ -203,6 +203,33 @@ HolySimbol.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.s
 .PHONY : HolySimbol.cpp.s
 
+PlagueDoctor.obj: PlagueDoctor.cpp.obj
+
+.PHONY : PlagueDoctor.obj
+
+# target to build an object file
+PlagueDoctor.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/PlagueDoctor.cpp.obj
+.PHONY : PlagueDoctor.cpp.obj
+
+PlagueDoctor.i: PlagueDoctor.cpp.i
+
+.PHONY : PlagueDoctor.i
+
+# target to preprocess a source file
+PlagueDoctor.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/PlagueDoctor.cpp.i
+.PHONY : PlagueDoctor.cpp.i
+
+PlagueDoctor.s: PlagueDoctor.cpp.s
+
+.PHONY : PlagueDoctor.s
+
+# target to generate assembly for a file
+PlagueDoctor.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/PlagueDoctor.cpp.s
+.PHONY : PlagueDoctor.cpp.s
+
 Rogue.obj: Rogue.cpp.obj
 
 .PHONY : Rogue.obj
@@ -338,6 +365,33 @@ Treant.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Treant.cpp.s
 .PHONY : Treant.cpp.s
 
+ViolinistBard.obj: ViolinistBard.cpp.obj
+
+.PHONY : ViolinistBard.obj
+
+# target to build an object file
+ViolinistBard.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/ViolinistBard.cpp.obj
+.PHONY : ViolinistBard.cpp.obj
+
+ViolinistBard.i: ViolinistBard.cpp.i
+
+.PHONY : ViolinistBard.i
+
+# target to preprocess a source file
+ViolinistBard.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/ViolinistBard.cpp.i
+.PHONY : ViolinistBard.cpp.i
+
+ViolinistBard.s: ViolinistBard.cpp.s
+
+.PHONY : ViolinistBard.s
+
+# target to generate assembly for a file
+ViolinistBard.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/ViolinistBard.cpp.s
+.PHONY : ViolinistBard.cpp.s
+
 Warrior.obj: Warrior.cpp.obj
 
 .PHONY : Warrior.obj
@@ -410,6 +464,9 @@ help:
 	@echo ... HolySimbol.obj
 	@echo ... HolySimbol.i
 	@echo ... HolySimbol.s
+	@echo ... PlagueDoctor.obj
+	@echo ... PlagueDoctor.i
+	@echo ... PlagueDoctor.s
 	@echo ... Rogue.obj
 	@echo ... Rogue.i
 	@echo ... Rogue.s
@@ -425,6 +482,9 @@ help:
 	@echo ... Treant.obj
 	@echo ... Treant.i
 	@echo ... Treant.s
+	@echo ... ViolinistBard.obj
+	@echo ... ViolinistBard.i
+	@echo ... ViolinistBard.s
 	@echo ... Warrior.obj
 	@echo ... Warrior.i
 	@echo ... Warrior.s

@@ -186,6 +186,32 @@ CMakeFiles/Dragon_s_Lair.dir/Treant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dragon_s_Lair.dir/Treant.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\Treant.cpp -o CMakeFiles\Dragon_s_Lair.dir\Treant.cpp.s
 
+CMakeFiles/Dragon_s_Lair.dir/ViolinistBard.cpp.obj: CMakeFiles/Dragon_s_Lair.dir/flags.make
+CMakeFiles/Dragon_s_Lair.dir/ViolinistBard.cpp.obj: ../ViolinistBard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Dragon_s_Lair.dir/ViolinistBard.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Dragon_s_Lair.dir\ViolinistBard.cpp.obj -c C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\ViolinistBard.cpp
+
+CMakeFiles/Dragon_s_Lair.dir/ViolinistBard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dragon_s_Lair.dir/ViolinistBard.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\ViolinistBard.cpp > CMakeFiles\Dragon_s_Lair.dir\ViolinistBard.cpp.i
+
+CMakeFiles/Dragon_s_Lair.dir/ViolinistBard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dragon_s_Lair.dir/ViolinistBard.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\ViolinistBard.cpp -o CMakeFiles\Dragon_s_Lair.dir\ViolinistBard.cpp.s
+
+CMakeFiles/Dragon_s_Lair.dir/PlagueDoctor.cpp.obj: CMakeFiles/Dragon_s_Lair.dir/flags.make
+CMakeFiles/Dragon_s_Lair.dir/PlagueDoctor.cpp.obj: ../PlagueDoctor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Dragon_s_Lair.dir/PlagueDoctor.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Dragon_s_Lair.dir\PlagueDoctor.cpp.obj -c C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\PlagueDoctor.cpp
+
+CMakeFiles/Dragon_s_Lair.dir/PlagueDoctor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dragon_s_Lair.dir/PlagueDoctor.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\PlagueDoctor.cpp > CMakeFiles\Dragon_s_Lair.dir\PlagueDoctor.cpp.i
+
+CMakeFiles/Dragon_s_Lair.dir/PlagueDoctor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dragon_s_Lair.dir/PlagueDoctor.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\PlagueDoctor.cpp -o CMakeFiles\Dragon_s_Lair.dir\PlagueDoctor.cpp.s
+
 # Object files for target Dragon_s_Lair
 Dragon_s_Lair_OBJECTS = \
 "CMakeFiles/Dragon_s_Lair.dir/main.cpp.obj" \
@@ -197,7 +223,9 @@ Dragon_s_Lair_OBJECTS = \
 "CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.obj" \
 "CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.obj" \
 "CMakeFiles/Dragon_s_Lair.dir/SilverGolem.cpp.obj" \
-"CMakeFiles/Dragon_s_Lair.dir/Treant.cpp.obj"
+"CMakeFiles/Dragon_s_Lair.dir/Treant.cpp.obj" \
+"CMakeFiles/Dragon_s_Lair.dir/ViolinistBard.cpp.obj" \
+"CMakeFiles/Dragon_s_Lair.dir/PlagueDoctor.cpp.obj"
 
 # External object files for target Dragon_s_Lair
 Dragon_s_Lair_EXTERNAL_OBJECTS =
@@ -212,11 +240,13 @@ Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.obj
 Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/HolySimbol.cpp.obj
 Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/SilverGolem.cpp.obj
 Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/Treant.cpp.obj
+Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/ViolinistBard.cpp.obj
+Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/PlagueDoctor.cpp.obj
 Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/build.make
 Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/linklibs.rsp
 Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/objects1.rsp
 Dragon_s_Lair.exe: CMakeFiles/Dragon_s_Lair.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Dragon_s_Lair.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\hueci\Documents\GitHub\Progetto-Informatica-Rocchi-Malevolti\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Dragon_s_Lair.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Dragon_s_Lair.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

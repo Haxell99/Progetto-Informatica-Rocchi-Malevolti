@@ -122,6 +122,12 @@
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/HolySimbol.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/PlagueDoctor.cpp">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/PlagueDoctor.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Relic.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
@@ -162,6 +168,12 @@
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Treant.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ViolinistBard.cpp">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ViolinistBard.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Warrior.cpp">

@@ -52,3 +52,24 @@ void Treant::ParasiticSeed::ObtainplantAbsorbtion() {
 }
 
 
+void Treant::HealingLeaf::Do() {
+    //TODO Missing heal on allies
+    //int healHL=c.level*5;
+
+}
+
+void Treant::EngunlfingLianas::Do() {
+    //TODO Missing enemy access
+    int paralysisEL=10+3*c.level;
+
+}
+
+void Treant::ForestAid::Do() {
+    c.plantAbsorbtion=c.plantAbsorbtion/100*150;
+    c.turnHealing=c.turnHealing/100*150;
+    //TODO: heal allies
+    int healFA=c.level*4+40;
+
+
+
+}
