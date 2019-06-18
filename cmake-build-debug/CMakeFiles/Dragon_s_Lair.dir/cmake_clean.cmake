@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Dragon_s_Lair.dir/Treant.cpp.obj"
   "CMakeFiles/Dragon_s_Lair.dir/ViolinistBard.cpp.obj"
   "CMakeFiles/Dragon_s_Lair.dir/PlagueDoctor.cpp.obj"
+  "CMakeFiles/Dragon_s_Lair.dir/Fungus.cpp.obj"
+  "CMakeFiles/Dragon_s_Lair.dir/Slime.cpp.obj"
   "Dragon_s_Lair.pdb"
   "Dragon_s_Lair.exe"
   "Dragon_s_Lair.exe.manifest"

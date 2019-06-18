@@ -176,6 +176,33 @@ Cleric.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Cleric.cpp.s
 .PHONY : Cleric.cpp.s
 
+Fungus.obj: Fungus.cpp.obj
+
+.PHONY : Fungus.obj
+
+# target to build an object file
+Fungus.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Fungus.cpp.obj
+.PHONY : Fungus.cpp.obj
+
+Fungus.i: Fungus.cpp.i
+
+.PHONY : Fungus.i
+
+# target to preprocess a source file
+Fungus.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Fungus.cpp.i
+.PHONY : Fungus.cpp.i
+
+Fungus.s: Fungus.cpp.s
+
+.PHONY : Fungus.s
+
+# target to generate assembly for a file
+Fungus.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Fungus.cpp.s
+.PHONY : Fungus.cpp.s
+
 HolySimbol.obj: HolySimbol.cpp.obj
 
 .PHONY : HolySimbol.obj
@@ -310,6 +337,33 @@ SilverGolem.s: SilverGolem.cpp.s
 SilverGolem.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/SilverGolem.cpp.s
 .PHONY : SilverGolem.cpp.s
+
+Slime.obj: Slime.cpp.obj
+
+.PHONY : Slime.obj
+
+# target to build an object file
+Slime.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Slime.cpp.obj
+.PHONY : Slime.cpp.obj
+
+Slime.i: Slime.cpp.i
+
+.PHONY : Slime.i
+
+# target to preprocess a source file
+Slime.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Slime.cpp.i
+.PHONY : Slime.cpp.i
+
+Slime.s: Slime.cpp.s
+
+.PHONY : Slime.s
+
+# target to generate assembly for a file
+Slime.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Slime.cpp.s
+.PHONY : Slime.cpp.s
 
 Team.obj: Team.cpp.obj
 
@@ -461,6 +515,9 @@ help:
 	@echo ... Cleric.obj
 	@echo ... Cleric.i
 	@echo ... Cleric.s
+	@echo ... Fungus.obj
+	@echo ... Fungus.i
+	@echo ... Fungus.s
 	@echo ... HolySimbol.obj
 	@echo ... HolySimbol.i
 	@echo ... HolySimbol.s
@@ -476,6 +533,9 @@ help:
 	@echo ... SilverGolem.obj
 	@echo ... SilverGolem.i
 	@echo ... SilverGolem.s
+	@echo ... Slime.obj
+	@echo ... Slime.i
+	@echo ... Slime.s
 	@echo ... Team.obj
 	@echo ... Team.i
 	@echo ... Team.s
