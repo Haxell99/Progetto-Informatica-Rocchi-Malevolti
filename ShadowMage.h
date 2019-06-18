@@ -132,14 +132,6 @@ private:
     int darkness;
     bool channelingPower;
     int startingDarkness;
-
-
-
-
-
-
-
-
 };
 
 

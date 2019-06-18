@@ -18,9 +18,9 @@ void Rogue::ShadowFade::Do() {
 void Rogue::poisonedBlade::ObtainvenomDamage() {
     if(g.level<2)
         g.venomDamage=3;
-    if(g.level<5)
+    if(g.level<=5 && g.level>2)
         g.venomDamage=6;
-    if(g.venomDamage<10)
+    if(g.venomDamage<=10 && g.level>5)
         g.venomDamage=9;
     else
         g.venomDamage=12;

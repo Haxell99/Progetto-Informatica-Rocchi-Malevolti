@@ -39,11 +39,11 @@ void ShadowMage::DarkSphere::Do() {
 }
 
 void ShadowMage::DemoniPact::obtaindarknessMultiplier() {
-    if(e.level==0)
+    if(e.level<=2)
         darknessMultiplier=0;
-    if(e.level<5)
+    if(e.level<5 && e.level>2)
         darknessMultiplier=2;
-    if(e.level<10)
+    if(e.level<10 && e.level>5)
         darknessMultiplier=3;
     else
         darknessMultiplier=4;
@@ -105,11 +105,11 @@ void ShadowMage::Annihilation::Do() {
 }
 
 void ShadowMage::NeverEndingNightmare::obtainorbToStun() {
-    if(e.level<2)
+    if(e.level<=2)
         orbToStun=15;
-    if(e.level<5)
+    if(e.level<5 &&e.level>2)
         orbToStun=10;
-    if(e.level<10)
+    if(e.level<10 &&e.level>=5)
         orbToStun=8;
     else
         orbToStun=5;

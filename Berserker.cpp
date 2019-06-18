@@ -5,11 +5,11 @@
 #include "Berserker.h"
 
 void Berserker::Inflame::ObtainstrenghtIncrease() {
-    if(f.level<2)
+    if(f.level<=2)
         strenghtIncrease=4;
-    if(f.level<5)
+    if(f.level<=5 && f.level>2)
         strenghtIncrease=6;
-    if(f.level<10)
+    if(f.level<=10 && f.level>5)
         strenghtIncrease=8;
     else
         strenghtIncrease=10;
@@ -51,11 +51,11 @@ void Berserker::BloodThirst::Do() {
 }
 
 void Berserker::BloodThirst::Obtainlifesteal() {
-    if(f.level<2)
+    if(f.level<=2)
         f.lifestealPercentage=5;
-    if(f.level<5)
+    if(f.level<=5 && f.level>2)
         f.lifestealPercentage=10;
-    if(f.level<10)
+    if(f.level<=10 && f.level>5)
         f.lifestealPercentage=15;
     else
         f.lifestealPercentage=20;
