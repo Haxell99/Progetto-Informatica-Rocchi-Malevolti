@@ -18,7 +18,7 @@ public:
         void ObtainturnarmorDecrease();
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Reduces armor and deals damage"};
         Slime &slime;
     };
 
@@ -28,7 +28,7 @@ public:
         void ObtainstrenghDrain();
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Deals damage and reduces enemy damage"};
         Slime &slime;
     };
 
@@ -37,7 +37,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Deals more damage if the nemy has low health"};
         Slime &slime;
     };
 

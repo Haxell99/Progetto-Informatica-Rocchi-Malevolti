@@ -83,6 +83,12 @@
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Ability.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/AutomatedSphere.cpp">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/AutomatedSphere.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Berserker.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
@@ -105,6 +111,12 @@
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Event.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/FireMage.cpp">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/FireMage.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Fungus.cpp">
@@ -132,6 +144,12 @@
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/PlagueDoctor.h">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/RagingOrc.cpp">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/RagingOrc.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
 		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Relic.h">

@@ -122,6 +122,33 @@ Dragon_s_Lair/fast:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/build
 .PHONY : Dragon_s_Lair/fast
 
+AutomatedSphere.obj: AutomatedSphere.cpp.obj
+
+.PHONY : AutomatedSphere.obj
+
+# target to build an object file
+AutomatedSphere.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/AutomatedSphere.cpp.obj
+.PHONY : AutomatedSphere.cpp.obj
+
+AutomatedSphere.i: AutomatedSphere.cpp.i
+
+.PHONY : AutomatedSphere.i
+
+# target to preprocess a source file
+AutomatedSphere.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/AutomatedSphere.cpp.i
+.PHONY : AutomatedSphere.cpp.i
+
+AutomatedSphere.s: AutomatedSphere.cpp.s
+
+.PHONY : AutomatedSphere.s
+
+# target to generate assembly for a file
+AutomatedSphere.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/AutomatedSphere.cpp.s
+.PHONY : AutomatedSphere.cpp.s
+
 Berserker.obj: Berserker.cpp.obj
 
 .PHONY : Berserker.obj
@@ -175,6 +202,33 @@ Cleric.s: Cleric.cpp.s
 Cleric.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Cleric.cpp.s
 .PHONY : Cleric.cpp.s
+
+FireMage.obj: FireMage.cpp.obj
+
+.PHONY : FireMage.obj
+
+# target to build an object file
+FireMage.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/FireMage.cpp.obj
+.PHONY : FireMage.cpp.obj
+
+FireMage.i: FireMage.cpp.i
+
+.PHONY : FireMage.i
+
+# target to preprocess a source file
+FireMage.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/FireMage.cpp.i
+.PHONY : FireMage.cpp.i
+
+FireMage.s: FireMage.cpp.s
+
+.PHONY : FireMage.s
+
+# target to generate assembly for a file
+FireMage.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/FireMage.cpp.s
+.PHONY : FireMage.cpp.s
 
 Fungus.obj: Fungus.cpp.obj
 
@@ -256,6 +310,33 @@ PlagueDoctor.s: PlagueDoctor.cpp.s
 PlagueDoctor.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/PlagueDoctor.cpp.s
 .PHONY : PlagueDoctor.cpp.s
+
+RagingOrc.obj: RagingOrc.cpp.obj
+
+.PHONY : RagingOrc.obj
+
+# target to build an object file
+RagingOrc.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/RagingOrc.cpp.obj
+.PHONY : RagingOrc.cpp.obj
+
+RagingOrc.i: RagingOrc.cpp.i
+
+.PHONY : RagingOrc.i
+
+# target to preprocess a source file
+RagingOrc.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/RagingOrc.cpp.i
+.PHONY : RagingOrc.cpp.i
+
+RagingOrc.s: RagingOrc.cpp.s
+
+.PHONY : RagingOrc.s
+
+# target to generate assembly for a file
+RagingOrc.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/RagingOrc.cpp.s
+.PHONY : RagingOrc.cpp.s
 
 Rogue.obj: Rogue.cpp.obj
 
@@ -509,12 +590,18 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Dragon_s_Lair
 	@echo ... edit_cache
+	@echo ... AutomatedSphere.obj
+	@echo ... AutomatedSphere.i
+	@echo ... AutomatedSphere.s
 	@echo ... Berserker.obj
 	@echo ... Berserker.i
 	@echo ... Berserker.s
 	@echo ... Cleric.obj
 	@echo ... Cleric.i
 	@echo ... Cleric.s
+	@echo ... FireMage.obj
+	@echo ... FireMage.i
+	@echo ... FireMage.s
 	@echo ... Fungus.obj
 	@echo ... Fungus.i
 	@echo ... Fungus.s
@@ -524,6 +611,9 @@ help:
 	@echo ... PlagueDoctor.obj
 	@echo ... PlagueDoctor.i
 	@echo ... PlagueDoctor.s
+	@echo ... RagingOrc.obj
+	@echo ... RagingOrc.i
+	@echo ... RagingOrc.s
 	@echo ... Rogue.obj
 	@echo ... Rogue.i
 	@echo ... Rogue.s
