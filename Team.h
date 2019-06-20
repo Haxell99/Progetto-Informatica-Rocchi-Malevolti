@@ -23,11 +23,11 @@ public:
         return team;
     }
 
-    void setTeam(std::vector<Hero> *team) {
+    void setTeam(std::vector<Hero>* team) {
         Team::team = team;
     }
 
-    std::vector<Relic> *getRelicsObtained() const {
+    std::vector<Relic>*getRelicsObtained() const {
         return relicsObtained;
     }
 
@@ -60,7 +60,7 @@ public:
     }
 
 private:
-    std::vector<Hero>* team;
+    std::vector<Hero>* team;           //TODO: siamo sicuri che non sia <Hero*> team?
     std::vector<Relic>* relicsObtained;
     int gold;
     int experience;

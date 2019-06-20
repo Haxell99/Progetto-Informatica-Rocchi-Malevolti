@@ -176,6 +176,33 @@ Berserker.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Berserker.cpp.s
 .PHONY : Berserker.cpp.s
 
+Chest.obj: Chest.cpp.obj
+
+.PHONY : Chest.obj
+
+# target to build an object file
+Chest.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Chest.cpp.obj
+.PHONY : Chest.cpp.obj
+
+Chest.i: Chest.cpp.i
+
+.PHONY : Chest.i
+
+# target to preprocess a source file
+Chest.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Chest.cpp.i
+.PHONY : Chest.cpp.i
+
+Chest.s: Chest.cpp.s
+
+.PHONY : Chest.s
+
+# target to generate assembly for a file
+Chest.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Chest.cpp.s
+.PHONY : Chest.cpp.s
+
 Cleric.obj: Cleric.cpp.obj
 
 .PHONY : Cleric.obj
@@ -202,6 +229,87 @@ Cleric.s: Cleric.cpp.s
 Cleric.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Cleric.cpp.s
 .PHONY : Cleric.cpp.s
+
+Dungeon.obj: Dungeon.cpp.obj
+
+.PHONY : Dungeon.obj
+
+# target to build an object file
+Dungeon.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Dungeon.cpp.obj
+.PHONY : Dungeon.cpp.obj
+
+Dungeon.i: Dungeon.cpp.i
+
+.PHONY : Dungeon.i
+
+# target to preprocess a source file
+Dungeon.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Dungeon.cpp.i
+.PHONY : Dungeon.cpp.i
+
+Dungeon.s: Dungeon.cpp.s
+
+.PHONY : Dungeon.s
+
+# target to generate assembly for a file
+Dungeon.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Dungeon.cpp.s
+.PHONY : Dungeon.cpp.s
+
+EtherealAssassin.obj: EtherealAssassin.cpp.obj
+
+.PHONY : EtherealAssassin.obj
+
+# target to build an object file
+EtherealAssassin.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/EtherealAssassin.cpp.obj
+.PHONY : EtherealAssassin.cpp.obj
+
+EtherealAssassin.i: EtherealAssassin.cpp.i
+
+.PHONY : EtherealAssassin.i
+
+# target to preprocess a source file
+EtherealAssassin.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/EtherealAssassin.cpp.i
+.PHONY : EtherealAssassin.cpp.i
+
+EtherealAssassin.s: EtherealAssassin.cpp.s
+
+.PHONY : EtherealAssassin.s
+
+# target to generate assembly for a file
+EtherealAssassin.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/EtherealAssassin.cpp.s
+.PHONY : EtherealAssassin.cpp.s
+
+Fight.obj: Fight.cpp.obj
+
+.PHONY : Fight.obj
+
+# target to build an object file
+Fight.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Fight.cpp.obj
+.PHONY : Fight.cpp.obj
+
+Fight.i: Fight.cpp.i
+
+.PHONY : Fight.i
+
+# target to preprocess a source file
+Fight.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Fight.cpp.i
+.PHONY : Fight.cpp.i
+
+Fight.s: Fight.cpp.s
+
+.PHONY : Fight.s
+
+# target to generate assembly for a file
+Fight.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Fight.cpp.s
+.PHONY : Fight.cpp.s
 
 FireMage.obj: FireMage.cpp.obj
 
@@ -311,6 +419,33 @@ PlagueDoctor.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/PlagueDoctor.cpp.s
 .PHONY : PlagueDoctor.cpp.s
 
+PreEventInterface.obj: PreEventInterface.cpp.obj
+
+.PHONY : PreEventInterface.obj
+
+# target to build an object file
+PreEventInterface.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/PreEventInterface.cpp.obj
+.PHONY : PreEventInterface.cpp.obj
+
+PreEventInterface.i: PreEventInterface.cpp.i
+
+.PHONY : PreEventInterface.i
+
+# target to preprocess a source file
+PreEventInterface.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/PreEventInterface.cpp.i
+.PHONY : PreEventInterface.cpp.i
+
+PreEventInterface.s: PreEventInterface.cpp.s
+
+.PHONY : PreEventInterface.s
+
+# target to generate assembly for a file
+PreEventInterface.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/PreEventInterface.cpp.s
+.PHONY : PreEventInterface.cpp.s
+
 RagingOrc.obj: RagingOrc.cpp.obj
 
 .PHONY : RagingOrc.obj
@@ -391,6 +526,33 @@ ShadowMage.s: ShadowMage.cpp.s
 ShadowMage.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/ShadowMage.cpp.s
 .PHONY : ShadowMage.cpp.s
+
+Shop.obj: Shop.cpp.obj
+
+.PHONY : Shop.obj
+
+# target to build an object file
+Shop.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Shop.cpp.obj
+.PHONY : Shop.cpp.obj
+
+Shop.i: Shop.cpp.i
+
+.PHONY : Shop.i
+
+# target to preprocess a source file
+Shop.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Shop.cpp.i
+.PHONY : Shop.cpp.i
+
+Shop.s: Shop.cpp.s
+
+.PHONY : Shop.s
+
+# target to generate assembly for a file
+Shop.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Shop.cpp.s
+.PHONY : Shop.cpp.s
 
 SilverGolem.obj: SilverGolem.cpp.obj
 
@@ -473,6 +635,33 @@ Team.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Team.cpp.s
 .PHONY : Team.cpp.s
 
+TeamBuild.obj: TeamBuild.cpp.obj
+
+.PHONY : TeamBuild.obj
+
+# target to build an object file
+TeamBuild.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/TeamBuild.cpp.obj
+.PHONY : TeamBuild.cpp.obj
+
+TeamBuild.i: TeamBuild.cpp.i
+
+.PHONY : TeamBuild.i
+
+# target to preprocess a source file
+TeamBuild.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/TeamBuild.cpp.i
+.PHONY : TeamBuild.cpp.i
+
+TeamBuild.s: TeamBuild.cpp.s
+
+.PHONY : TeamBuild.s
+
+# target to generate assembly for a file
+TeamBuild.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/TeamBuild.cpp.s
+.PHONY : TeamBuild.cpp.s
+
 Treant.obj: Treant.cpp.obj
 
 .PHONY : Treant.obj
@@ -554,6 +743,33 @@ Warrior.cpp.s:
 	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/Warrior.cpp.s
 .PHONY : Warrior.cpp.s
 
+WitherDragon.obj: WitherDragon.cpp.obj
+
+.PHONY : WitherDragon.obj
+
+# target to build an object file
+WitherDragon.cpp.obj:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/WitherDragon.cpp.obj
+.PHONY : WitherDragon.cpp.obj
+
+WitherDragon.i: WitherDragon.cpp.i
+
+.PHONY : WitherDragon.i
+
+# target to preprocess a source file
+WitherDragon.cpp.i:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/WitherDragon.cpp.i
+.PHONY : WitherDragon.cpp.i
+
+WitherDragon.s: WitherDragon.cpp.s
+
+.PHONY : WitherDragon.s
+
+# target to generate assembly for a file
+WitherDragon.cpp.s:
+	$(MAKE) -f CMakeFiles\Dragon_s_Lair.dir\build.make CMakeFiles/Dragon_s_Lair.dir/WitherDragon.cpp.s
+.PHONY : WitherDragon.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -596,9 +812,21 @@ help:
 	@echo ... Berserker.obj
 	@echo ... Berserker.i
 	@echo ... Berserker.s
+	@echo ... Chest.obj
+	@echo ... Chest.i
+	@echo ... Chest.s
 	@echo ... Cleric.obj
 	@echo ... Cleric.i
 	@echo ... Cleric.s
+	@echo ... Dungeon.obj
+	@echo ... Dungeon.i
+	@echo ... Dungeon.s
+	@echo ... EtherealAssassin.obj
+	@echo ... EtherealAssassin.i
+	@echo ... EtherealAssassin.s
+	@echo ... Fight.obj
+	@echo ... Fight.i
+	@echo ... Fight.s
 	@echo ... FireMage.obj
 	@echo ... FireMage.i
 	@echo ... FireMage.s
@@ -611,6 +839,9 @@ help:
 	@echo ... PlagueDoctor.obj
 	@echo ... PlagueDoctor.i
 	@echo ... PlagueDoctor.s
+	@echo ... PreEventInterface.obj
+	@echo ... PreEventInterface.i
+	@echo ... PreEventInterface.s
 	@echo ... RagingOrc.obj
 	@echo ... RagingOrc.i
 	@echo ... RagingOrc.s
@@ -620,6 +851,9 @@ help:
 	@echo ... ShadowMage.obj
 	@echo ... ShadowMage.i
 	@echo ... ShadowMage.s
+	@echo ... Shop.obj
+	@echo ... Shop.i
+	@echo ... Shop.s
 	@echo ... SilverGolem.obj
 	@echo ... SilverGolem.i
 	@echo ... SilverGolem.s
@@ -629,6 +863,9 @@ help:
 	@echo ... Team.obj
 	@echo ... Team.i
 	@echo ... Team.s
+	@echo ... TeamBuild.obj
+	@echo ... TeamBuild.i
+	@echo ... TeamBuild.s
 	@echo ... Treant.obj
 	@echo ... Treant.i
 	@echo ... Treant.s
@@ -638,6 +875,9 @@ help:
 	@echo ... Warrior.obj
 	@echo ... Warrior.i
 	@echo ... Warrior.s
+	@echo ... WitherDragon.obj
+	@echo ... WitherDragon.i
+	@echo ... WitherDragon.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
