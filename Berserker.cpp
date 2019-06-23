@@ -120,6 +120,58 @@ void Berserker::LevelUp() {
     startingStrenght+=1;
 }
 
+void Berserker::ChooseAction() {
+    int choice;
+
+    std::cout << "Choose what to do:" << std::endl;
+    std::cout << "1. Attack" << std::endl;
+    std::cout << "2. Defend" << std::endl;
+    std::cout << "3. Use Rampage" << std::endl;
+    std::cout << "4. Use Inflame" << std::endl;
+    std::cout << "5. Use Grevious Wound" << std::endl;
+    std::cout << "6. Go in Bloodthirst mode" << std::endl;
+    if(bloodthirst) {
+        std::cout << "7. Use Melter" << std::endl;
+        std::cout << "8. Use Harvest Soul" << std::endl;
+    }
+
+    bool validchoice= false;
+    while (!validchoice){
+        std::cin >> choice;
+        if(choice>0 && choice<9) {
+            if (bloodthirst)
+                validchoice= true;
+            else
+                if(choice>0 && choice<7)
+                    validchoice=true;
+        }
+    }
+
+    switch (choice)
+    {
+        case 1:
+            Attack();
+            break;
+        case 2:
+            Defend();
+            break;
+        case 3:
+            //Rampage::Do();
+            break;
+        case 4:
+            break;
+        case 5:
+            break;
+        case 6:
+            break;
+        case 7:
+            break;
+        case 8:
+            break;
+    }
+
+}
+
 void Berserker::HarvestSoul::Do() {
     if(f.bloodthirst){
         f.damageTurn=4*(8+f.strenght);

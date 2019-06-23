@@ -24,6 +24,8 @@ public:
 
     void LevelUp() override;
 
+    void ChooseAction() override;
+
     void Lifesteal(int dmg);
 
     class Inflame : public Spell{

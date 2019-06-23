@@ -19,6 +19,8 @@ public:
 
     virtual void LevelUp()=0;
 
+    virtual void ChooseAction()=0;
+
     const std::string &getHeroType() const {
         return heroType;
     }
