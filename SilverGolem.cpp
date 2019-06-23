@@ -89,3 +89,19 @@ void SilverGolem::TechSharing::Do() {
     //TODO: implements ally handling to give them b.armor and lose that much
 
 }
+
+void SilverGolem::Attack() {
+    damageTurn=1*level+strenght+(armor/10);
+}
+
+void SilverGolem::Defend() {
+    armor=6*level;
+}
+
+void SilverGolem::LevelUp() {
+    level++;
+    if(level==5 || level==10)
+        maxTurrets++;
+    startingArmor+=3;
+    maxHealth+=1;
+}

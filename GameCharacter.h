@@ -13,7 +13,7 @@ public:
 
     virtual void Attack()=0;
 
-    virtual void RecieveDamage()=0;
+    virtual void RecieveDamage(int damage); //wtf is going on?
 
     virtual void UseAbility()=0;
 
@@ -153,6 +153,7 @@ protected:
     int strenght;
     int level;
     int startingArmor;
+    int startingStrenght;
     std::string name;
     bool poisonImmunity;
     bool bleedImmunity;
@@ -164,4 +165,5 @@ protected:
     int stunned;
     bool protect;
 };
+
 #endif //DRAGON_S_LAIR_GAMECHARACTER_H

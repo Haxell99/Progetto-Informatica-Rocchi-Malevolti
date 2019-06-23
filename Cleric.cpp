@@ -5,7 +5,7 @@
 #include "Cleric.h"
 
 void Cleric::Attack() {
-
+    damageTurn=2*level+strenght;
 }
 
 int Cleric::getHeal() const {
@@ -14,6 +14,16 @@ int Cleric::getHeal() const {
 
 void Cleric::setHeal(int heal) {
     Cleric::heal = heal;
+}
+
+void Cleric::Defend() {
+    level++;
+    armor+=3*level;
+}
+
+void Cleric::LevelUp() {
+    maxHealth+=3;
+    heal+=2;
 }
 
 void Cleric::HolyTouch::Do() {

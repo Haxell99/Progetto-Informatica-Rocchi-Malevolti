@@ -38,7 +38,7 @@ void Warrior::Warmaster::Do() {
 void Warrior::RelentlessAttack::Do() {
     int d=h.reposte/2;
     h.reposte=h.reposte-d;
-    h.DamageTurnWarrior=2*d+h.strenght;
+    h.damageTurn=2*d+h.strenght;
 
 }
 
@@ -76,4 +76,25 @@ void Warrior::ForceOfWill::Obtaininvincible() {
         h.invincible=30;
 
 
+}
+
+void Warrior::Attack() {
+    damageTurn=4*level+strenght;
+}
+
+void Warrior::Defend() {
+    armor+=5*level;
+}
+
+void Warrior::LevelUp() {
+    level++;
+    if(level==3 || level==6 || level==9)
+        startingReposte+=3;
+    maxHealth+=5;
+}
+
+void Warrior::RecieveDamage(int damage) {
+    if(forceofwill && damage>invincible)
+        damage=invincible;
+    GameCharacter::RecieveDamage(damage);
 }

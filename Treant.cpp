@@ -73,3 +73,16 @@ void Treant::ForestAid::Do() {
 
 
 }
+
+void Treant::Attack() {
+    damageTurn=1*level+strenght;
+}
+
+void Treant::Defend() {
+    armor+=5*level;
+}
+
+void Treant::LevelUp() {
+    level++;
+    maxHealth+=5;
+}

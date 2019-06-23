@@ -17,6 +17,8 @@ public:
 
     virtual void Defend()=0;
 
+    virtual void LevelUp()=0;
+
     const std::string &getHeroType() const {
         return heroType;
     }

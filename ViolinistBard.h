@@ -13,6 +13,16 @@
 
 class ViolinistBard : public Hero {
 public:
+    ViolinistBard();
+
+    ~ViolinistBard();
+
+    void Attack() override;
+
+    void Defend() override;
+
+    void LevelUp() override;
+
     class LesserCureWounds : public Spell{
     public:
         void Do() override;
@@ -67,6 +77,7 @@ private:
     int globes;
 //TODO pensare a un altro nome per i globi
     int remainingGlobes;
+    int damageTurn;
 
 
 };

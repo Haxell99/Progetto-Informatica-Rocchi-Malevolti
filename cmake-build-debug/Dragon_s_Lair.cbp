@@ -8,262 +8,265 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Dragon_s_Lair">
-				<Option output="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Dragon_s_Lair.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug"/>
+				<Option output="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Dragon_s_Lair.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 Dragon_s_Lair"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 Dragon_s_Lair"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Dragon_s_Lair/fast">
-				<Option output="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Dragon_s_Lair.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug"/>
+				<Option output="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Dragon_s_Lair.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 Dragon_s_Lair/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 Dragon_s_Lair/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Ability.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Ability.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/AutomatedSphere.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/AutomatedSphere.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/AutomatedSphere.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/AutomatedSphere.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Berserker.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Berserker.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Berserker.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Berserker.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Boss.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Boss.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Chest.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Chest.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Chest.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Chest.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Cleric.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Cleric.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Cleric.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Cleric.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Dungeon.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Dungeon.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Dungeon.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Dungeon.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Enemy Abilities.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Enemy Abilities.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Enemy.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Enemy.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/EtherealAssassin.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/EtherealAssassin.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/EtherealAssassin.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/EtherealAssassin.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Event.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Event.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Fight.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Fight.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Fight.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Fight.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/FireMage.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/FireMage.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/FireMage.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/FireMage.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Fungus.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Fungus.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Fungus.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Fungus.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/GameCharacter.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/GameCharacter.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/GenericRelic.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/GameCharacter.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Hero.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/GenericRelic.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/HolySimbol.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Hero.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/HolySimbol.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/HolySimbol.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/PlagueDoctor.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/HolySimbol.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/PlagueDoctor.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/PlagueDoctor.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/PreEventInterface.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/PlagueDoctor.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/PreEventInterface.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/PreEventInterface.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/RagingOrc.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/PreEventInterface.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/RagingOrc.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/RagingOrc.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Relic.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/RagingOrc.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Rogue.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Relic.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Rogue.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Rogue.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ShadowMage.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Rogue.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ShadowMage.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ShadowMage.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Shop.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ShadowMage.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Shop.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Shop.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/SilverGolem.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Shop.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/SilverGolem.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/SilverGolem.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Skill.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/SilverGolem.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Slime.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Skill.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Slime.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Slime.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/SpecificRelic.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Slime.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Spell.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/SpecificRelic.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Team.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Spell.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Team.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Team.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/TeamBuild.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Team.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/TeamBuild.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/TeamBuild.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Treant.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/TeamBuild.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Treant.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Treant.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ViolinistBard.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Treant.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ViolinistBard.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ViolinistBard.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Warrior.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/ViolinistBard.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Warrior.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Warrior.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/WitherDragon.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/Warrior.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/WitherDragon.h">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/WitherDragon.cpp">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/main.cpp">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/WitherDragon.h">
 			<Option target="Dragon_s_Lair"/>
 		</Unit>
-		<Unit filename="C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/CMakeLists.txt">
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/main.cpp">
+			<Option target="Dragon_s_Lair"/>
+		</Unit>
+		<Unit filename="C:/Users/Alessio Rocchi/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

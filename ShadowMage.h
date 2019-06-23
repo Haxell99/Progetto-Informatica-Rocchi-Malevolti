@@ -30,6 +30,9 @@ public:
 
     void Defend() override;
 
+    void LevelUp() override;
+
+
     class Meditate : public Skill{
     public:
         void Do() override;
@@ -128,7 +131,7 @@ public:
 
 private:
     static int damageTotal;
-    int damageTurnShadow;
+    int damageTurn;
     int darkness;
     bool channelingPower;
     int startingDarkness;

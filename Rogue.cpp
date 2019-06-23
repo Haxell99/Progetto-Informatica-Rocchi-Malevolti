@@ -5,8 +5,16 @@
 #include "Rogue.h"
 
 void Rogue::Attack() {
+    damageTurn=5*level+strenght;
+}
 
+void Rogue::Defend() {
+    armor+=3*level;
+}
 
+void Rogue::LevelUp() {
+    level++;
+    maxHealth+=4;
 }
 
 void Rogue::ShadowFade::Do() {
@@ -48,7 +56,7 @@ void Rogue::Backstab::Do() {
         d=d*2;
         g.hidden=false;
     }
-    g.DamageTurnRogue=d;
+    g.damageTurn=d;
 
 }
 
@@ -58,7 +66,7 @@ void Rogue::ThousandCuts::Do() {
         d=d*2;
         g.hidden=false;
     }
-    g.DamageTurnRogue=d;
+    g.damageTurn=d;
 
 }
 
@@ -69,7 +77,7 @@ void Rogue::CloakandDagger::Do() {
         g.hidden=false;
     }
     g.armor=g.armor+10;
-    g.DamageTurnRogue=d;
+    g.damageTurn=d;
 
 
 }
@@ -81,6 +89,6 @@ void Rogue::Eviscerate::Do() {
         d=d*2;
         g.hidden=false;
     }
-    g.DamageTurnRogue=d;
+    g.damageTurn=d;
 
 }

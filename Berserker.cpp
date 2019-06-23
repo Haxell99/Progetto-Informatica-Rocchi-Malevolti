@@ -33,7 +33,7 @@ void Berserker::GreviousWound::ObtainbleedGW() {
 void Berserker::GreviousWound::Do() {
     if(bleedGW==0 || !cast)
         ObtainbleedGW();
-    f.damageTurnBerserker=2*(3+f.strenght);
+    f.damageTurn=2*(3+f.strenght);
     //TODO: come visto prima, manca da assegnare bleedGW a un nemico
     cast=true;
 }
@@ -81,13 +81,13 @@ void Berserker::Rampage::Do() {
     }
 
     if(!f.bloodthirst) {
-        f.damageTurnBerserker = 8 + f.currentRampage;
+        f.damageTurn = 8 + f.currentRampage;
         f.currentRampage = f.currentRampage + f.rampageIncrease;
     }
     else{
-        f.damageTurnBerserker= 10 + f.currentRampage;
+        f.damageTurn= 10 + f.currentRampage;
         f.currentRampage=f.currentRampage+f.strenght+f.rampageIncrease;
-        f.Lifesteal(f.damageTurnBerserker);
+        f.Lifesteal(f.damageTurn);
     }
     cast=true;
 
@@ -104,16 +104,26 @@ void Berserker::Lifesteal(int dmg) {
 }
 
 void Berserker::Attack() {
-    damageTurnBerserker=10+strenght;
+    damageTurn=10+strenght;
     if(bloodthirst)
-        Lifesteal(damageTurnBerserker);
+        Lifesteal(damageTurn);
 
+}
+
+void Berserker::Defend() {
+    armor+=2*level;
+}
+
+void Berserker::LevelUp() {
+    level++;
+    maxHealth+=5;
+    startingStrenght+=1;
 }
 
 void Berserker::HarvestSoul::Do() {
     if(f.bloodthirst){
-        f.damageTurnBerserker=4*(8+f.strenght);
-        f.Lifesteal(f.damageTurnBerserker);
+        f.damageTurn=4*(8+f.strenght);
+        f.Lifesteal(f.damageTurn);
         //TODO: if damage kills the target gain permanent damage on rampage
         //if(currentEnemy.health<damageTurnBerserker)
         //rampageIncrease++

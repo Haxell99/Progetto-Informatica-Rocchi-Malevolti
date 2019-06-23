@@ -34,7 +34,7 @@ void ShadowMage::DarkSphere::Do() {
     if(darknessIncreaseDS==0  || !cast)
         obtaindarknessIncreaseDS();
     e.darkness=e.darkness+darknessIncreaseDS;
-    e.damageTurnShadow=10*e.level;
+    e.damageTurn=10*e.level;
     cast=true;
 }
 
@@ -139,7 +139,11 @@ void ShadowMage::Defend() {
     setArmor(a);
 }
 
-
+void ShadowMage::LevelUp() {
+    level++;
+    maxHealth+=4;
+    startingDarkness+=1;
+}
 
 
 //Getter and Setter methods of the Class

@@ -16,7 +16,16 @@
 class Warrior : public Hero {
 public:
     Warrior();
+
     ~Warrior()final;
+
+    void RecieveDamage(int damage) override;
+
+    void Attack() override;
+
+    void Defend() override;
+
+    void LevelUp() override;
 
     class Reposte : public Skill {
     public:
@@ -87,7 +96,8 @@ private:
     bool forceofwill;
     int invincible;
     int currentReposte;
-    int DamageTurnWarrior;
+    int damageTurn;
+    int startingReposte {0};
 
 };
 

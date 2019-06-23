@@ -54,3 +54,16 @@ void ViolinistBard::SymphonyOfEstro::ObtainGlobes() {
 void ViolinistBard::Caprice::Do() {
 
 }
+
+void ViolinistBard::Attack() {
+    damageTurn=1*level+strenght;
+}
+
+void ViolinistBard::Defend() {
+    armor+=3*level;
+}
+
+void ViolinistBard::LevelUp() {
+    level++;
+    maxHealth+=3;
+}

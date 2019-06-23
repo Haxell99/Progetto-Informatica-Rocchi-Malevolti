@@ -13,6 +13,16 @@
 
 class Treant : public Hero{
 public:
+    Treant();
+
+    ~Treant();
+
+    void Attack() override;
+
+    void Defend() override;
+
+    void LevelUp() override;
+
     class MinorTaunt : public Skill{
     public:
         void Do() override;
@@ -68,6 +78,7 @@ private:
     int turnHealing;
     int plantAbsorbtion;
     bool immobile {false};
+    int damageTurn;
 
 };
 

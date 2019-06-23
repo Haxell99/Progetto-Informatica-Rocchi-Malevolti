@@ -24,6 +24,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Dragon_s_Lair.dir/Chest.cpp.obj"
   "CMakeFiles/Dragon_s_Lair.dir/PreEventInterface.cpp.obj"
   "CMakeFiles/Dragon_s_Lair.dir/Dungeon.cpp.obj"
+  "CMakeFiles/Dragon_s_Lair.dir/GameCharacter.cpp.obj"
   "Dragon_s_Lair.pdb"
   "Dragon_s_Lair.exe"
   "Dragon_s_Lair.exe.manifest"

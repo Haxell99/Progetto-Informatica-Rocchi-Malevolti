@@ -38,3 +38,18 @@ void PlagueDoctor::PotionOfMadness::Do() {
     int strenghtPOM= 2+2*p.level;
     int strenghtDeecreasePOM= strenghtPOM/4;
 }
+
+void PlagueDoctor::Attack() {
+    damageTurn=3*level+strenght;
+    //apply 1 o 2 poison (?)
+}
+
+void PlagueDoctor::Defend() {
+    armor+=3*level;
+}
+
+void PlagueDoctor::LevelUp() {
+    level++;
+    maxHealth+=3;
+    heal+=1;
+}

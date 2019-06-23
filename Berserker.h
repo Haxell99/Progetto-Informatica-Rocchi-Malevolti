@@ -15,8 +15,14 @@
 class Berserker : public Hero {
 public:
     Berserker();
+
     ~Berserker()final;
+
+    void Defend() override;
+
     void Attack() override;
+
+    void LevelUp() override;
 
     void Lifesteal(int dmg);
 
@@ -84,7 +90,7 @@ private:
     int startingRampage;
     int currentRampage;
     bool bloodthirst {false};
-    int damageTurnBerserker;
+    int damageTurn;
     int lifestealPercentage{5};
 
 

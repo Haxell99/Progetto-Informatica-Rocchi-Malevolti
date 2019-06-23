@@ -13,6 +13,16 @@
 
 class SilverGolem : public Hero {
 public:
+    SilverGolem();
+
+    ~SilverGolem();
+
+    void Attack() override;
+
+    void Defend() override;
+
+    void LevelUp() override;
+
     class MinorTaunt : public Skill {
     public:
 
@@ -88,6 +98,7 @@ private:
     int DamageTurnGolem;
     int turretDamage;
     int turretShield;
+    int damageTurn;
 
 };
 

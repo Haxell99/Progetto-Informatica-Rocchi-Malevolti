@@ -15,9 +15,14 @@
 class Rogue : public Hero {
 public:
     Rogue();
+
     ~Rogue() final;
 
     void Attack() override;
+
+    void Defend() override;
+
+    void LevelUp() override;
 
     class ShadowFade : public Spell{
     public:
@@ -77,7 +82,7 @@ private:
     bool poisonedB;
     bool hidden;
     int venomDamage;
-    int DamageTurnRogue;
+    int damageTurn;
 
 
 };

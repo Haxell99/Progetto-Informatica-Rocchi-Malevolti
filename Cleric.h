@@ -21,8 +21,11 @@ public:
 
     ~Cleric()final;
 
-
     void Attack() override;
+
+    void Defend() override;
+
+    void LevelUp() override;
 
     class HolyTouch : public Skill {
     public:
@@ -83,7 +86,7 @@ public:
 
 private:
     int heal;
-
+    int damageTurn;
 
 };
 

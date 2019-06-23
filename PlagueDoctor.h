@@ -14,7 +14,14 @@
 class PlagueDoctor : public Hero {
 public:
     PlagueDoctor();
+
     ~PlagueDoctor();
+
+    void Attack() override;
+
+    void Defend() override;
+
+    void LevelUp() override;
 
     class PoisonDart : public Skill{
     public:
@@ -65,7 +72,8 @@ public:
     };
 
 private:
-
+    int damageTurn;
+    int heal;
 };
 
 
