@@ -29,8 +29,9 @@ public:
 
 private:
     std::string name;
-    int cost;
     std::string description;
+    int cost;
+
 };
 
 #endif //DRAGON_S_LAIR_RELIC_H

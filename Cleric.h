@@ -87,7 +87,12 @@ public:
 private:
     int heal;
     int damageTurn;
-
+    Cleric::HolyTouch HolyTouch=Cleric::HolyTouch;
+    Cleric::LesserCureWounds LesserCureWounds=Cleric::LesserCureWounds;
+    Cleric::WordOfStun WordOfStun=Cleric::WordOfStun;
+    Cleric::Blessing Blessing=Cleric::Blessing;
+    Cleric::MajorCureWounds MajorCureWounds=Cleric::MajorCureWounds;
+    Cleric::GiftOfImmortality GiftOfImmortality=Cleric::GiftOfImmortality;
 };
 
 

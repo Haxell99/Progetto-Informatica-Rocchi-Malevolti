@@ -9,5 +9,5 @@ void GameCharacter::RecieveDamage(int damage) {
         armor=0;
     }
     else
-        healt-=damage;
+        armor-=damage;
 }

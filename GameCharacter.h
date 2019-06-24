@@ -13,7 +13,7 @@ public:
 
     virtual void Attack()=0;
 
-    virtual void RecieveDamage(int damage); //wtf is going on?
+    virtual void RecieveDamage(int damage); 
 
     virtual void UseAbility()=0;
 

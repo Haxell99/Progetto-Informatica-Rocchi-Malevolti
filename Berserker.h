@@ -70,6 +70,7 @@ public:
 
     class Rampage : public Skill{
     public:
+        Rampage();
         void Do() override;
     private:
         std::string description {"Deals damage, then increases the damage.\\n\"\n"
@@ -94,9 +95,12 @@ private:
     bool bloodthirst {false};
     int damageTurn;
     int lifestealPercentage{5};
-
-
-
+    Berserker::Inflame Inflame=Berserker::Inflame;
+    Berserker::GreviousWound GreviousWound=Berserker::GreviousWound;
+    Berserker::BloodThirst BloodThirst=Berserker::BloodThirst;
+    Berserker::Melter Melter=Berserker::Melter;
+    Berserker::Rampage Rampage=Berserker::Rampage;
+    Berserker::HarvestSoul HarvestSoul=Berserker::HarvestSoul;
 
 };
 

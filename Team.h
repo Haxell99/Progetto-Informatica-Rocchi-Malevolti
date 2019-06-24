@@ -60,8 +60,8 @@ public:
     }
 
 private:
-    std::vector<Hero>* team;           //TODO: siamo sicuri che non sia <Hero*> team?
-    std::vector<Relic>* relicsObtained;
+    std::vector<Hero*> team;
+    std::vector<Relic*> relicsObtained;
     int gold;
     int experience;
     int expForLvlUp;

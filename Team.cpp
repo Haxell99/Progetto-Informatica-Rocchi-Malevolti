@@ -5,21 +5,25 @@
 #include "Team.h"
 
 Team::Team() {
-    team=new std::vector<Hero>;
-    relicsObtained=new std::vector<Relic>;
+    team=std::vector<Hero>;
+    relicsObtained=std::vector<Relic>;
     gold=0;
     experience=0;
     expForLvlUp=200; //Randomic for now
 }
 
 Team::~Team() {
-    delete team;
-    delete relicsObtained;
+    for(int i = 0; i < team.size(); i++){
+        delete team[i];
+    }
+    for(int i = 0; i < relicsObtained.size() ; i++){
+        delete relicsObtained[i];
+    }
 }
 
 void Team::LevelUp() {
-    for (auto i = team->begin(); i < team->end() ; i++) {
-        //ToDo avevo pensato che visto che ognuno cambia a modo suo perchè non si fa che ogni hero c ha il suo lvlUp che qui se no ci si sta un mese a farlo
+    for (int i = 0; i < team.size(); i++) {
+        team[i]->LevelUp();
     }
 }
 void Team::HandleCharacterDeath(Hero &hero) {

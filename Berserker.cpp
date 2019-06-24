@@ -156,20 +156,24 @@ void Berserker::ChooseAction() {
             Defend();
             break;
         case 3:
-            //Rampage::Do();
+            Rampage.Do();
             break;
         case 4:
+            Inflame.Do();
             break;
         case 5:
+            GreviousWound.Do();
             break;
         case 6:
+            BloodThirst.Do();
             break;
         case 7:
+            Melter.Do();
             break;
         case 8:
+            HarvestSoul.Do();
             break;
     }
-
 }
 
 void Berserker::HarvestSoul::Do() {
