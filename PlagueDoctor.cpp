@@ -53,3 +53,4 @@ void PlagueDoctor::LevelUp() {
     maxHealth+=3;
     heal+=1;
 }
+//TODO: heal in spell
