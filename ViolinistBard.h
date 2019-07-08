@@ -23,6 +23,8 @@ public:
 
     void LevelUp() override;
 
+    void ChooseAction() override;
+
     class LesserCureWounds : public Spell{
     public:
         void Do() override;
@@ -78,7 +80,12 @@ private:
 //TODO pensare a un altro nome per i globi
     int remainingGlobes;
     int damageTurn;
-
+    ViolinistBard::LesserCureWounds LesserCureWounds=ViolinistBard::LesserCureWounds;
+    ViolinistBard::SymphonyOfPower SymphonyOfPower=ViolinistBard::SymphonyOfPower;
+    ViolinistBard::SymphonyOfSibelius SymphonyOfSibelius=ViolinistBard::SymphonyOfSibelius;
+    ViolinistBard::SymphonyOfFortitude SymphonyOfFortitude=ViolinistBard::SymphonyOfFortitude;
+    ViolinistBard::SymphonyOfEstro SymphonyOfEstro=ViolinistBard::SymphonyOfEstro;
+    ViolinistBard::Caprice Caprice=ViolinistBard::Caprice;
 
 };
 

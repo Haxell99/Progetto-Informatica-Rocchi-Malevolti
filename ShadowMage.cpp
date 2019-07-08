@@ -98,7 +98,7 @@ void ShadowMage::Annihilation::obtaindamagePerOrb() {
 void ShadowMage::Annihilation::Do() {
     if(damagePerOrb==0 || !cast)
         obtaindamagePerOrb();
-    e.damageTurnShadow=damagePerOrb*e.darkness;
+    e.damageTurn=damagePerOrb*e.darkness;
     //darkness reduction should be based on damage dealt
     e.darkness=0;
     cast=true;
@@ -129,8 +129,6 @@ void ShadowMage::NeverEndingNightmare::Do() {
     cast=true;
 }
 
-
-
 void ShadowMage::Defend() {
     if (darkness>0)
         darkness--;
@@ -143,6 +141,51 @@ void ShadowMage::LevelUp() {
     level++;
     maxHealth+=4;
     startingDarkness+=1;
+}
+
+void ShadowMage::ChooseAction() {
+    int choice;
+
+    std::cout << "Choose what to do:" << std::endl;
+    std::cout << "1. Defend" << std::endl;
+    std::cout << "2. Use Meditate" << std::endl;
+    std::cout << "3. Use Dark Sphere" << std::endl;
+    std::cout << "4. Use Demonic Pact" << std::endl;
+    std::cout << "5. Use Dark Embrace" << std::endl;
+    std::cout << "6. Use Annihilation" << std::endl;
+    std::cout << "7. Use Never Ending Nightmare" << std::endl;
+
+    bool validchoice = false;
+    while (!validchoice){
+        std::cin >> choice;
+        if(choice > 0 && choice < 8)
+            validchoice = true;
+    }
+
+    switch (choice)
+    {
+        case 1:
+            Defend();
+            break;
+        case 2:
+            Meditate.Do();
+            break;
+        case 3:
+            DarkSphere.Do();
+            break;
+        case 4:
+            DemonicPact.Do();
+            break;
+        case 5:
+            DarkEmbrace.Do();
+            break;
+        case 6:
+            Annihilation.Do();
+            break;
+        case 7:
+            NeverEndingNightmare.Do();
+            break;
+    }
 }
 
 

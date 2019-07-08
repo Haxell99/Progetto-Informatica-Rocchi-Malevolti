@@ -53,3 +53,52 @@ void PlagueDoctor::LevelUp() {
     maxHealth+=3;
     heal+=1;
 }
+
+void PlagueDoctor::ChooseAction() {
+    int choice;
+
+    std::cout << "Choose what to do:" << std::endl;
+    std::cout << "1. Attack" << std::endl;
+    std::cout << "2. Defend" << std::endl;
+    std::cout << "3. Use Poison Dart" << std::endl;
+    std::cout << "4. Use Paralyzing Dust" << std::endl;
+    std::cout << "5. Use Experimental Cure" << std::endl;
+    std::cout << "6. Use Panacea" << std::endl;
+    std::cout << "7. Use Debilitating Poison" << std::endl;
+    std::cout << "8. Use Potion of Madness" << std::endl;
+
+    bool validchoice = false;
+    while (!validchoice){
+        std::cin >> choice;
+        if(choice > 0 && choice < 9)
+            validchoice = true;
+    }
+
+    switch (choice)
+    {
+        case 1:
+            Attack();
+            break;
+        case 2:
+            Defend();
+            break;
+        case 3:
+            PoisonDart.Do();
+            break;
+        case 4:
+            ParalyzingDust.Do();
+            break;
+        case 5:
+            ExperimentalCure.Do();
+            break;
+        case 6:
+            Panacea.Do();
+            break;
+        case 7:
+            DebilitatingPoison.Do();
+            break;
+        case 8:
+            PotionOfMadness.Do();
+            break;
+    }
+}

@@ -27,6 +27,8 @@ public:
 
     void LevelUp() override;
 
+    void ChooseAction() override;
+
     class Reposte : public Skill {
     public:
 
@@ -98,6 +100,12 @@ private:
     int currentReposte;
     int damageTurn;
     int startingReposte {0};
+    Warrior::Reposte Reposte=Warrior::Reposte;
+    Warrior::MajorTaunt MajorTaunt=Warrior::MajorTaunt;
+    Warrior::Warmaster Warmaster=Warrior::Warmaster;
+    Warrior::RelentlessAttack RelentlessAttack=Warrior::RelentlessAttack;
+    Warrior::TrueResolve TrueResolve=Warrior::TrueResolve;
+    Warrior::ForceOfWill ForceOfWill=Warrior::ForceOfWill;
 
 };
 

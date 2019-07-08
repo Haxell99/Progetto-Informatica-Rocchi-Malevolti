@@ -23,6 +23,8 @@ public:
 
     void LevelUp() override;
 
+    void ChooseAction() override;
+
     class MinorTaunt : public Skill {
     public:
 
@@ -44,7 +46,7 @@ public:
         SilverGolem &b;
     };
 
-    class AutomaedTurret : public Skill {
+    class AutomatedTurret : public Skill {
     public:
         void EOTTurrets();
         void ObtainTurretStats();
@@ -99,6 +101,12 @@ private:
     int turretDamage;
     int turretShield;
     int damageTurn;
+    SilverGolem::MinorTaunt MinorTaunt=SilverGolem::MinorTaunt;
+    SilverGolem::Metallicize Metallicize=SilverGolem::Metallicize;
+    SilverGolem::AutomatedTurret AutomatedTurret=SilverGolem::AutomatedTurret;
+    SilverGolem::Upgrade Upgrade=SilverGolem::Upgrade;
+    SilverGolem::RepairMode RepairMode=SilverGolem::RepairMode;
+    SilverGolem::TechSharing TechSharing=SilverGolem::TechSharing;
 
 };
 

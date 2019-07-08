@@ -67,3 +67,53 @@ void ViolinistBard::LevelUp() {
     level++;
     maxHealth+=3;
 }
+
+void ViolinistBard::ChooseAction() {
+    int choice;
+
+    std::cout << "Choose what to do:" << std::endl;
+    std::cout << "1. Attack" << std::endl;
+    std::cout << "2. Defend" << std::endl;
+    std::cout << "3. Use Lesser Cure Wounds" << std::endl;
+    std::cout << "4. Use Symphony of Power" << std::endl;
+    std::cout << "5. Use Symphony of Sibelius" << std::endl;
+    std::cout << "6. Use Symphony of Fortitude" << std::endl;
+    std::cout << "7. Use Symphony of Estro" << std::endl;
+    std::cout << "8. Use Caprice" << std::endl;
+
+    bool validchoice = false;
+    while (!validchoice){
+        std::cin >> choice;
+        if(choice > 0 && choice < 9)
+            validchoice = true;
+    }
+
+    switch (choice)
+    {
+        case 1:
+            Attack();
+            break;
+        case 2:
+            Defend();
+            break;
+        case 3:
+            LesserCureWounds.Do();
+            break;
+        case 4:
+            SymphonyOfPower.Do();
+            break;
+        case 5:
+            SymphonyOfSibelius.Do();
+            break;
+        case 6:
+            SymphonyOfFortitude.Do();
+            break;
+        case 7:
+            SymphonyOfEstro.Do();
+            break;
+        case 8:
+            Caprice.Do();
+            break;
+    }
+
+}

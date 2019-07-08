@@ -32,6 +32,7 @@ public:
 
     void LevelUp() override;
 
+    void ChooseAction() override;
 
     class Meditate : public Skill{
     public:
@@ -135,6 +136,12 @@ private:
     int darkness;
     bool channelingPower;
     int startingDarkness;
+    ShadowMage::Meditate Meditate=ShadowMage::Meditate;
+    ShadowMage::DarkSphere DarkSphere=ShadowMage::DarkSphere;
+    ShadowMage::DemoniPact DemonicPact=ShadowMage::DemonicPact;
+    ShadowMage::DarkEmbrace DarkEmbrace=ShadowMage::DarkEmbrace;
+    ShadowMage::Annihilation Annihilation=ShadowMage::Annihilation;
+    ShadowMage::NeverEndingNightmare NeverEndingNightmare=ShadowMage::NeverEndingNightmare;
 };
 
 
