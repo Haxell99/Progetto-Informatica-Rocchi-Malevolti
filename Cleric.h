@@ -27,6 +27,8 @@ public:
 
     void LevelUp() override;
 
+    void ChooseAction() override;
+
     class HolyTouch : public Skill {
     public:
 
