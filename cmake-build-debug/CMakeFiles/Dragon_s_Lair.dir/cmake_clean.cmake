@@ -28,6 +28,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Dragon_s_Lair.dir/FireDragon.cpp.obj"
   "CMakeFiles/Dragon_s_Lair.dir/PoisonDragon.cpp.obj"
   "CMakeFiles/Dragon_s_Lair.dir/Bandit.cpp.obj"
+  "CMakeFiles/Dragon_s_Lair.dir/FrozenWhelp.cpp.obj"
+  "CMakeFiles/Dragon_s_Lair.dir/WallOfThousandCuts.cpp.obj"
   "Dragon_s_Lair.pdb"
   "Dragon_s_Lair.exe"
   "Dragon_s_Lair.exe.manifest"
