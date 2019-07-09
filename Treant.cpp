@@ -86,3 +86,52 @@ void Treant::LevelUp() {
     level++;
     maxHealth+=5;
 }
+
+void Treant::ChooseAction() {
+    int choice;
+
+    std::cout << "Choose what to do:" << std::endl;
+    std::cout << "1. Attack" << std::endl;
+    std::cout << "2. Defend" << std::endl;
+    std::cout << "3. Use Minor Taunt" << std::endl;
+    std::cout << "4. Use Deep Roots" << std::endl;
+    std::cout << "5. Use Parasitic Seed" << std::endl;
+    std::cout << "6. Use Healing Leef" << std::endl;
+    std::cout << "7. Use Engulfing Lianas" << std::endl;
+    std::cout << "8. Use Forest Aid" << std::endl;
+
+    bool validchoice = false;
+    while (!validchoice){
+        std::cin >> choice;
+        if(choice > 0 && choice < 9)
+            validchoice = true;
+    }
+
+    switch (choice)
+    {
+        case 1:
+            Attack();
+            break;
+        case 2:
+            Defend();
+            break;
+        case 3:
+            MinorTaunt.Do();
+            break;
+        case 4:
+            DeepRoots.Do();
+            break;
+        case 5:
+            PerasiticSeed.Do();
+            break;
+        case 6:
+            HealingLeef.Do();
+            break;
+        case 7:
+            EngulfingLianas.Do();
+            break;
+        case 8:
+            ForestAid.Do();
+            break;
+    }
+}

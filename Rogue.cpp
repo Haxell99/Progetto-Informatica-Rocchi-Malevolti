@@ -17,13 +17,62 @@ void Rogue::LevelUp() {
     maxHealth+=4;
 }
 
+void Rogue::ChooseAction() {
+    int choice;
+
+    std::cout << "Choose what to do:" << std::endl;
+    std::cout << "1. Attack" << std::endl;
+    std::cout << "2. Defend" << std::endl;
+    std::cout << "3. Use Shadow Fade" << std::endl;
+    std::cout << "4. Use Poisoned Blade" << std::endl;
+    std::cout << "5. Use Backstab" << std::endl;
+    std::cout << "6. Use Thousand Cuts" << std::endl;
+    std::cout << "7. Use Cloack and Dagger" << std::endl;
+    std::cout << "8. Use Eviscerate" << std::endl;
+
+    bool validchoice = false;
+    while (!validchoice){
+        std::cin >> choice;
+        if(choice > 0 && choice < 9)
+            validchoice = true;
+    }
+
+    switch (choice)
+    {
+        case 1:
+            Attack();
+            break;
+        case 2:
+            Defend();
+            break;
+        case 3:
+            ShadowFade.Do();
+            break;
+        case 4:
+            PoisonedBlade.Do();
+            break;
+        case 5:
+            Backstab.Do();
+            break;
+        case 6:
+            ThousandCuts.Do();
+            break;
+        case 7:
+            CloackandDagger.Do();
+            break;
+        case 8:
+            Eviscerate.Do();
+            break;
+    }
+}
+
 void Rogue::ShadowFade::Do() {
     g.protect=true;
     g.hidden=true;
 
 }
 
-void Rogue::poisonedBlade::ObtainvenomDamage() {
+void Rogue::PoisonedBlade::ObtainvenomDamage() {
     if(g.level<2)
         g.venomDamage=3;
     if(g.level<=5 && g.level>2)
@@ -36,7 +85,7 @@ void Rogue::poisonedBlade::ObtainvenomDamage() {
 }
 
 
-void Rogue::poisonedBlade::Do() {
+void Rogue::PoisonedBlade::Do() {
     if(g.venomDamage==0 || !cast) {
         ObtainvenomDamage();
         g.poisonedB = true;

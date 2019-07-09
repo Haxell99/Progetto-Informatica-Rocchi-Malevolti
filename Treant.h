@@ -23,6 +23,8 @@ public:
 
     void LevelUp() override;
 
+    void ChooseAction() override;
+
     class MinorTaunt : public Skill{
     public:
         void Do() override;
@@ -79,6 +81,12 @@ private:
     int plantAbsorbtion;
     bool immobile {false};
     int damageTurn;
+    Treant::MinorTaunt MinorTaunt=Treant::MinorTaunt;
+    Treant::DeepRoots DeepRoots=Treant::DeepRoots;
+    Treant::ParasiticSeed PerasiticSeed=Treant::PerasiticSeed;
+    Treant::HealingLeaf HealingLeef=Treant::HealingLeef;
+    Treant::EngunlfingLianas EngulfingLianas=Treant::EngulfingLianas;
+    Treant::ForestAid ForestAid=Treant::ForestAid;
 
 };
 

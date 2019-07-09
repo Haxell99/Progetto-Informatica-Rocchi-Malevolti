@@ -98,3 +98,52 @@ void Warrior::RecieveDamage(int damage) {
         damage=invincible;
     GameCharacter::RecieveDamage(damage);
 }
+
+void Warrior::ChooseAction() {
+    int choice;
+
+    std::cout << "Choose what to do:" << std::endl;
+    std::cout << "1. Attack" << std::endl;
+    std::cout << "2. Defend" << std::endl;
+    std::cout << "3. Use Reposte" << std::endl;
+    std::cout << "4. Use Major Taunt" << std::endl;
+    std::cout << "5. Use Warmaster" << std::endl;
+    std::cout << "6. Use Relentless Attack" << std::endl;
+    std::cout << "7. Use True Resolve" << std::endl;
+    std::cout << "8. Use Force Of Will" << std::endl;
+
+    bool validchoice = false;
+    while (!validchoice){
+        std::cin >> choice;
+        if(choice > 0 && choice < 9)
+            validchoice = true;
+    }
+
+    switch (choice)
+    {
+        case 1:
+            Attack();
+            break;
+        case 2:
+            Defend();
+            break;
+        case 3:
+            Reposte.Do();
+            break;
+        case 4:
+            MajorTaunt.Do();
+            break;
+        case 5:
+            Warmaster.Do();
+            break;
+        case 6:
+            RelentlessAttack.Do();
+            break;
+        case 7:
+            TrueResolve.Do();
+            break;
+        case 8:
+            ForceOfWill.Do();
+            break;
+    }
+}

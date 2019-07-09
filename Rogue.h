@@ -24,6 +24,8 @@ public:
 
     void LevelUp() override;
 
+    void ChooseAction() override;
+
     class ShadowFade : public Spell{
     public:
         void Do() override;
@@ -33,7 +35,7 @@ public:
 
     };
 
-    class poisonedBlade : public Skill{
+    class PoisonedBlade : public Skill{
     public:
         void Do() override;
         void ObtainvenomDamage();
@@ -83,8 +85,12 @@ private:
     bool hidden;
     int venomDamage;
     int damageTurn;
-
-
+    Rogue::ShadowFade ShadowFade=Rogue::ShadowFade;
+    Rogue::PoisonedBlade PoisonedBlade=Rogue::PoisonedBlade;
+    Rogue::Backstab Backstab=Rogue::Backstab;
+    Rogue::ThousandCuts ThousandCuts=Rogue::ThousandCuts;
+    Rogue::CloakandDagger CloackandDagger=Rogue::CloackandDagger;
+    Rogue::Eviscerate Eviscerate=Rogue::Eviscerate;
 };
 
 

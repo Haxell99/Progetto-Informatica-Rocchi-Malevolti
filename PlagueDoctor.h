@@ -23,6 +23,8 @@ public:
 
     void LevelUp() override;
 
+    void ChooseAction() override;
+
     class PoisonDart : public Skill{
     public:
         void Do() override;
@@ -74,6 +76,13 @@ public:
 private:
     int damageTurn;
     int heal;
+    PlagueDoctor::PoisonDart PoisonDart=PlagueDoctor::PoisonDart;
+    PlagueDoctor::ParalyzingDust ParalyzingDust=PlagueDoctor::ParalyzingDust;
+    PlagueDoctor::ExperimentalCure ExperimentalCure=PlagueDoctor::ExperimentalCure;
+    PlagueDoctor::Panacea Panacea=PlagueDoctor::Panacea;
+    PlagueDoctor::DebilitatingPotion DebilitatingPoison=PlagueDoctor::DebilitatingPoison;
+    PlagueDoctor::PotionOfMadness PotionOfMadness=PlagueDoctor::PotionOfMadness;
+
 };
 
 

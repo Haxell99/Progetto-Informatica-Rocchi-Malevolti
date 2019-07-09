@@ -29,7 +29,7 @@ void SilverGolem::Metallicize::Obtainmetallicize() {
         b.metallicize=5;
 }
 
-void SilverGolem::AutomaedTurret::Do() {
+void SilverGolem::AutomatedTurret::Do() {
     if(!cast) {
         b.currentTurrets = 1;
         ObtainTurretStats();
@@ -38,7 +38,7 @@ void SilverGolem::AutomaedTurret::Do() {
         b.currentTurrets++;
 }
 
-void SilverGolem::AutomaedTurret::EOTTurrets() {
+void SilverGolem::AutomatedTurret::EOTTurrets() {
     if(cast) {
         if (b.defensiveMode)
             //TODO: implement shield allies = b.currentTurrets*b.turretShield, delete foo
@@ -49,7 +49,7 @@ void SilverGolem::AutomaedTurret::EOTTurrets() {
 
 }
 
-void SilverGolem::AutomaedTurret::ObtainTurretStats() {
+void SilverGolem::AutomatedTurret::ObtainTurretStats() {
     if(b.level<2) {
         b.turretDamage = 2;
         b.turretShield = 1;
@@ -104,4 +104,53 @@ void SilverGolem::LevelUp() {
         maxTurrets++;
     startingArmor+=3;
     maxHealth+=1;
+}
+
+void SilverGolem::ChooseAction() {
+    int choice;
+
+    std::cout << "Choose what to do:" << std::endl;
+    std::cout << "1. Attack" << std::endl;
+    std::cout << "2. Defend" << std::endl;
+    std::cout << "3. Use Minor Taunt" << std::endl;
+    std::cout << "4. Use Metallicize" << std::endl;
+    std::cout << "5. Use Automated Turret" << std::endl;
+    std::cout << "6. Use Upgrade" << std::endl;
+    std::cout << "7. Use Rapair Mode" << std::endl;
+    std::cout << "8. Use Tech Sharing" << std::endl;
+
+    bool validchoice = false;
+    while (!validchoice){
+        std::cin >> choice;
+        if(choice > 0 && choice < 9)
+            validchoice = true;
+    }
+
+    switch (choice)
+    {
+        case 1:
+            Attack();
+            break;
+        case 2:
+            Defend();
+            break;
+        case 3:
+            MinorTaunt.Do();
+            break;
+        case 4:
+            Metallicize.Do();
+            break;
+        case 5:
+            AutomatedTurret.Do();
+            break;
+        case 6:
+            Upgrade.Do();
+            break;
+        case 7:
+            RepairMode.Do();
+            break;
+        case 8:
+            TechSharing.Do();
+            break;
+    }
 }

@@ -1,3 +1,0 @@
-C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/CMakeFiles/Dragon_s_Lair.dir
-C:/Users/hueci/Documents/GitHub/Progetto-Informatica-Rocchi-Malevolti/cmake-build-debug/CMakeFiles/edit_cache.dir
