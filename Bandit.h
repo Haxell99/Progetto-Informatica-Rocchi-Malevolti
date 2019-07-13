@@ -20,7 +20,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Attacks with a glass knife. After some attacks, it will break"};
         Bandit &band;
     };
 
@@ -29,7 +29,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Hides, gaining protection from damage"};
         Bandit &band;
     };
 
@@ -38,7 +38,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"It will be used by the bandit when the glass knife breaks"};
         Bandit &band;
     };
 

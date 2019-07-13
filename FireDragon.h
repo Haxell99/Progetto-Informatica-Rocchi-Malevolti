@@ -22,7 +22,7 @@ public:
         void ObtainstreghtSteal();
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Surrounds himself in fire, gaining armor and increasing the reposte."};
         int reposteIncrease;
         int armorIncrease;
         int strenghtSteal;
@@ -34,7 +34,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"A powerful area of effect fire attack"};
         FireDragon &reddragon;
     };
 
@@ -43,7 +43,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Single target fire damage"};
         FireDragon &reddragon;
     };
 
@@ -52,7 +52,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Massive damage and bleed to a target"};
         FireDragon &reddragon;
     };
 

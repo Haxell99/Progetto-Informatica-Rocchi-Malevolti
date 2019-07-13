@@ -27,7 +27,7 @@ public:
         void Do() override;
         void Obtainpoison();
     private:
-        std::string description {""};
+        std::string description {"Area of effect poison"};
         Fungus &fungus;
     };
 
@@ -36,7 +36,7 @@ public:
         void Do() override;
         void Obtainparalysis();
     private:
-        std::string description {""};
+        std::string description {"Single target paralysis debuff"};
         Fungus &fungus;
     };
 

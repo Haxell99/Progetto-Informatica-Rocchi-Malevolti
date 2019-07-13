@@ -22,7 +22,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Doubles the metallicize"};
         AutomatedSphere &sphere;
     };
 
@@ -32,7 +32,7 @@ public:
         void ObtainarmorIncrease();
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Deals damage, then gains a minor quantity of armor"};
         AutomatedSphere &sphere;
     };
 
@@ -41,7 +41,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Deals damage equal to metallicize"};
         AutomatedSphere &sphere;
     };
 private:

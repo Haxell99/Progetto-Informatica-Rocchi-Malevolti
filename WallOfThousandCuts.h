@@ -18,7 +18,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Increases the number of knives, dealing more damage when enemies attack it"};
         WallOfThousandCuts &angrywall;
     };
 
@@ -27,7 +27,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Uses the knives to make an attack"};
         WallOfThousandCuts &angrywall;
     };
 
@@ -36,7 +36,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Gains a massive quantity of armor"};
         WallOfThousandCuts &angrywall;
     };
 

@@ -13,6 +13,10 @@ void FrozenWhelp::IceBreath::Do() {
 
 void FrozenWhelp::Crystallize::Do() {
     whelp.protect=true;
+    if(whelp.healt+whelp.level>whelp.maxHealth)
+        whelp.healt=whelp.maxHealth;
+    else
+        whelp.healt+=whelp.level;
 
 }
 

@@ -18,7 +18,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Area of effect damage fireball"};
         FireMage &fire;
     };
 
@@ -29,7 +29,7 @@ public:
         void ObtainreposteIncrease();
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Gains a fire shield that damage who attacks him"};
         FireMage &fire;
     };
 
@@ -38,7 +38,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Single target flame attack"};
         FireMage &fire;
     };
 

@@ -19,7 +19,7 @@ public:
         void ObtainstrenghtIncrease();
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Enters a rage state, every time it's used after the first time will increase strenght"};
         RagingOrc &r;
     };
 
@@ -28,7 +28,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Single target damage"};
         RagingOrc &r;
     };
 
@@ -36,7 +36,7 @@ public:
     public:
         void Do() override;
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Multiattack that involves all enemies"};
         RagingOrc &r;
     };
 

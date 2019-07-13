@@ -18,7 +18,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {""};
+        std::string description {"Parlysis"};
         PoisonDragon &greendragon;
     };
 
@@ -27,7 +27,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {""};
+        std::string description {"Area of effect poison"};
         PoisonDragon &greendragon;
     };
 
@@ -36,7 +36,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {""};
+        std::string description {"Gains armor, the quantity is massive if scales are not broken yet"};
         bool brokenScales {false};
         PoisonDragon &greendragon;
     };
@@ -46,7 +46,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {""};
+        std::string description {"Triples the poison on enemies"};
         PoisonDragon &greendragon;
     };
 

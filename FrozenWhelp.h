@@ -20,7 +20,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"If part of the damage is dealt on the enemy hit points, stuns them"};
         FrozenWhelp &whelp;
     };
 
@@ -29,7 +29,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Surrounds himself in ice, gaining protection from damage and restoring health"};
         FrozenWhelp &whelp;
     };
 
@@ -38,7 +38,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Aoe ice attack"};
         FrozenWhelp &whelp;
     };
 

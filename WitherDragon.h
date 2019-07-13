@@ -18,7 +18,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Halves the mana of all heroes"};
         WitherDragon &purpledragon;
     };
 
@@ -27,7 +27,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Deals aoe damage and gives lesser paralysis"};
         WitherDragon &purpledragon;
     };
 
@@ -36,7 +36,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Stuns 2 turns a target, increases each time the spell is used"};
         WitherDragon &purpledragon;
     };
 
@@ -45,7 +45,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Kills an enemy, empowering all his spells"};
         WitherDragon &purpledragon;
     };
 

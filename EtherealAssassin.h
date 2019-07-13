@@ -23,7 +23,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Marks to death an enemy, damaging him when going in ethereal form"};
         EtherealAssassin &assassin;
 
 
@@ -34,7 +34,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"Becomes ghostly, avoiding damage and damaging the marked enemy"};
         EtherealAssassin &assassin;
 
     };
@@ -45,7 +45,7 @@ public:
         void Do() override;
 
     private:
-        std::string description {"Plants itself into the terrain, healing each turn"};
+        std::string description {"An attack that deals double damage against marked targets"};
         EtherealAssassin &assassin;
     };
 
