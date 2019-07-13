@@ -14,7 +14,7 @@
 class ShadowMage : public Hero {
 public:
 
-    ShadowMage();
+    ShadowMage(int lev, int hp, int mana);
 
     int getDarkness() const;
 
@@ -131,11 +131,10 @@ public:
 
 
 private:
-    static int damageTotal;
     int damageTurn;
     int darkness;
-    bool channelingPower;
-    int startingDarkness;
+    bool channelingPower {false};
+    int startingDarkness {3};
     ShadowMage::Meditate Meditate=ShadowMage::Meditate;
     ShadowMage::DarkSphere DarkSphere=ShadowMage::DarkSphere;
     ShadowMage::DemoniPact DemonicPact=ShadowMage::DemonicPact;

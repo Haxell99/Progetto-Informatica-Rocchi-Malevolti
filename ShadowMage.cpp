@@ -216,6 +216,7 @@ void ShadowMage::setStartingDarkness(int startingDarkness) {
 }
 
 
+
 //Nested Classes Getter and Setter Methods
 
 int ShadowMage::Meditate::getManaGain() const {

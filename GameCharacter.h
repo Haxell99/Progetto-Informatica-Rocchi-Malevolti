@@ -147,23 +147,23 @@ public:
 
 
 protected:
-    int healt;
+    int healt {maxHealth};
     int maxHealth;
-    int armor;
-    int strenght;
-    int level;
+    int armor {startingArmor};
+    int strenght {startingStrenght};
+    int level {1};
     int startingArmor;
     int startingStrenght;
     std::string name;
-    bool poisonImmunity;
-    bool bleedImmunity;
-    bool paralyzedImmunity;
-    bool stunImmunity;
-    int poisoned;
-    int bleed;
-    int paralyzed;
-    int stunned;
-    bool protect;
+    bool poisonImmunity {false};
+    bool bleedImmunity {false};
+    bool paralyzedImmunity {false};
+    bool stunImmunity {false};
+    int poisoned {false};
+    int bleed {false};
+    int paralyzed {false};
+    int stunned {false};
+    bool protect {false};
 };
 
 #endif //DRAGON_S_LAIR_GAMECHARACTER_H
